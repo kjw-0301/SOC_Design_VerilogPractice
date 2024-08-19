@@ -1,0 +1,2 @@
+# SOC_Design_VerilogPractice
+Verilog Practice_KimJongWon
