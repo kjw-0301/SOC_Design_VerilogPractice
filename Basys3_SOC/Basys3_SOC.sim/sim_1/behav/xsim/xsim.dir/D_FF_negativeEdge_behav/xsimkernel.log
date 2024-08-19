@@ -1,0 +1,7 @@
+Running: xsim.dir/D_FF_negativeEdge_behav/xsimk.exe -simmode gui -wdb D_FF_negativeEdge_behav.wdb -simrunnum 0 -socket 54627
+Design successfully loaded
+Design Loading Memory Usage: 6016 KB (Peak: 6016 KB)
+Design Loading CPU Usage: 78 ms
+Simulation completed
+Simulation Memory Usage: 6624 KB (Peak: 6624 KB)
+Simulation CPU Usage: 108 ms

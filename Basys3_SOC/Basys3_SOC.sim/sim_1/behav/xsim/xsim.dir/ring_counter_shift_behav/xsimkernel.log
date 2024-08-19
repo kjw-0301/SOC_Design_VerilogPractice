@@ -1,0 +1,7 @@
+Running: xsim.dir/ring_counter_shift_behav/xsimk.exe -simmode gui -wdb ring_counter_shift_behav.wdb -simrunnum 0 -socket 54902
+Design successfully loaded
+Design Loading Memory Usage: 6524 KB (Peak: 6524 KB)
+Design Loading CPU Usage: 46 ms
+Simulation completed
+Simulation Memory Usage: 7120 KB (Peak: 7120 KB)
+Simulation CPU Usage: 61 ms
