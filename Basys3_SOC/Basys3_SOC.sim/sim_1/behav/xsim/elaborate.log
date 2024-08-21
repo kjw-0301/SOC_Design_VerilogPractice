@@ -1,6 +1,6 @@
 Vivado Simulator 2019.2
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b17b7ed92fcf45d29351cfb2c9aec8d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot PWM_100s_128step_behav xil_defaultlib.PWM_100s_128step xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2019.2/bin/unwrapped/win64.o/xelab.exe -wto b17b7ed92fcf45d29351cfb2c9aec8d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot I2C_Master_behav xil_defaultlib.I2C_Master xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
@@ -9,6 +9,7 @@ Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.edge_dectector_n
-Compiling module xil_defaultlib.PWM_100s_128step
+Compiling module xil_defaultlib.clock_div_100
+Compiling module xil_defaultlib.I2C_Master
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot PWM_100s_128step_behav
+Built simulation snapshot I2C_Master_behav
