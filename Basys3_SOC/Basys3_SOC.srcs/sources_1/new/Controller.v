@@ -826,3 +826,134 @@ module PWM_Nstep_freq
     
 endmodule
 
+module I2C_Master(
+    input clk, reset_p,
+    input[6:0] addr,
+    input rd_wr,
+    input [7:0]data,
+    input comm_go,
+    output reg scl,sda,
+    output reg [15:0] led_debug);
+    
+    parameter IDLE = 7'b000_0001;
+    parameter COMM_START = 7'b000_0010;
+    parameter SEND_ADDR = 7'b000_0100;
+    parameter RD_ACK = 7'b000_1000;
+    parameter SEND_DATA = 7'b001_0000;
+    parameter SCL_STOP = 7'b010_0000;
+    parameter COMM_STOP = 7'b100_0000;
+    
+    wire[7:0] addr_rw;
+    assign addr_rw = {addr,rd_wr};
+    
+    wire clk_microsec;
+    clock_div_100 microsec_clk(.clk(clk), .reset_p(reset_p),.clk_div_100_nedge(clk_microsec));
+    
+    reg[2:0] count_microsec5;
+    reg SCL_clk_enable;
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p)begin
+            count_microsec5 = 0;
+            scl = 1;
+        end
+        else if(SCL_clk_enable) begin
+            if(clk_microsec)begin
+                if(count_microsec5 >= 4)begin
+                    count_microsec5 = 0;
+                    scl = ~scl;
+                end 
+                else count_microsec5 = count_microsec5 +1;
+            end
+        end
+        else if(!SCL_clk_enable)begin
+                scl = 1;
+                count_microsec5 = 0;
+        end
+    end
+    
+    wire SCL_nedge,SCL_pedge;
+    edge_dectector_n scl_edge(.clk(clk), .reset_p(reset_p),.cp(scl), .p_edge(SCL_pedge), .n_edge(SCL_nedge));
+    
+    wire COMM_GO_pedge;
+    edge_dectector_n comm_edge(.clk(clk), .reset_p(reset_p),.cp(comm_go), .p_edge(COMM_GO_pedge));
+    
+    reg[6:0] state, next_state;
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p) state = IDLE;
+        else state = next_state;
+    end
+    
+    reg[2:0] count_bit;
+    reg stop_flag;
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p)begin
+            next_state = IDLE;
+            SCL_clk_enable = 0;
+            sda = 1;
+            count_bit = 7;
+            stop_flag = 0;
+        end
+        else begin
+            case(state)
+                IDLE:begin
+                    SCL_clk_enable = 0;
+                    sda = 1;
+                    if(COMM_GO_pedge) next_state = COMM_START;
+                end
+                COMM_START:begin
+                    sda = 0;
+                    SCL_clk_enable = 1;
+                    next_state = SEND_ADDR;
+                end
+                SEND_ADDR:begin
+                    if(SCL_nedge)sda = addr_rw[count_bit];
+                    if(SCL_pedge)begin
+                        if(count_bit == 0)begin 
+                            count_bit = 7;
+                            next_state = RD_ACK; 
+                        end
+                        else count_bit = count_bit - 1;
+                    end
+                end
+                RD_ACK:begin
+                    if(SCL_nedge) sda = 'bz;
+                    else if(SCL_pedge)begin
+                        if(stop_flag)begin
+                            stop_flag = 0;
+                            next_state = SCL_STOP;
+                        end
+                        else begin
+                            stop_flag = 1;
+                            next_state = SEND_DATA;
+                        end
+                    end
+                end
+                SEND_DATA:begin
+                     if(SCL_nedge)sda = data[count_bit];
+                    if(SCL_pedge)begin
+                        if(count_bit == 0)begin 
+                            count_bit = 7;
+                            next_state = RD_ACK; 
+                        end
+                        else count_bit = count_bit - 1;
+                    end
+                end
+                SCL_STOP:begin
+                    if(SCL_nedge) sda = 0;
+                    else if(SCL_pedge) next_state = COMM_STOP;
+                end
+                COMM_STOP:begin
+                    if(count_microsec5 >= 3)begin
+                        SCL_clk_enable = 0;
+                        sda = 1;
+                        next_state = IDLE;
+                    end
+                end   
+            endcase
+        end
+    end
+    
+    
+    
+endmodule
+
