@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.runs/impl_1'
+HD_PWD='C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,6 +42,6 @@ EAStep()
 
 # pre-commands:
 /bin/touch .init_design.begin.rst
-EAStep vivado -log dht11_test_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dht11_test_top.tcl -notrace
+EAStep vivado -log I2C_txtLCD_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source I2C_txtLCD_top.tcl -notrace
 
 

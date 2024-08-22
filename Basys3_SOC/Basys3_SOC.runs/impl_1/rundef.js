@@ -25,7 +25,7 @@ eval( EAInclude(ISEJScriptLib) );
 // pre-commands:
 ISETouchFile( "init_design", "begin" );
 ISEStep( "vivado",
-         "-log dht11_test_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source dht11_test_top.tcl -notrace" );
+         "-log I2C_txtLCD_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source I2C_txtLCD_top.tcl -notrace" );
 
 
 

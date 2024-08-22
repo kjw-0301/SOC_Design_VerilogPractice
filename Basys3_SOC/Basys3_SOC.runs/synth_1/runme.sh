@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.runs/synth_1'
+HD_PWD='C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log dht11_test_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source dht11_test_top.tcl
+EAStep vivado -log I2C_txtLCD_top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_txtLCD_top.tcl
