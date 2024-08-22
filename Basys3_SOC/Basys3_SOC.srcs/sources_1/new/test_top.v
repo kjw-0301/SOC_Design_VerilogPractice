@@ -872,3 +872,155 @@ module adc_sequence2_top(
     fnd_controller fnd_ADC(.clk(clk), .reset_p(reset_p), .value(value), .com(com), .seg_7(seg_7));   
 endmodule
 
+
+module I2C_Master_top(
+    input clk, reset_p,
+    input[1:0] btn,
+    output scl, sda,
+    output[15:0] led);
+    
+    reg[7:0]data;
+    reg comm_go; 
+    
+    wire[1:0]btn_pedge;
+    button_Controller btn0(.clk(clk), .reset_p(reset_p),.btn(btn[0]), .btn_posedge(btn_pedge[0]));
+    button_Controller btn1(.clk(clk), .reset_p(reset_p),.btn(btn[1]), .btn_posedge(btn_pedge[1]));
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p)begin
+            data = 0;
+            comm_go = 0;
+        end
+        else begin
+            if(btn_pedge[0])begin
+                data = 8'b0000_0000;
+                comm_go = 1;
+            end
+            else if(btn_pedge[1])begin
+                data = 8'b0000_1000;
+                comm_go = 1;
+            end
+            else comm_go = 0;
+        end
+    end
+    
+    
+    I2C_Master(.clk(clk), .reset_p(reset_p), .addr(7'h27), .rd_wr(0), .data(data), .comm_go(comm_go), .scl(scl),.sda(sda), .led_debug(led));
+
+endmodule
+
+
+
+
+module I2C_txtLCD_top(
+    input clk, reset_p,
+    input[3:0] btn,
+    output scl,sda,
+    output[15:0]led);
+    
+    parameter IDLE = 3'b001;
+    parameter INIT = 3'b010;
+    parameter SEND_BYTE = 3'b100;
+    
+    wire clk_microsec;
+    clock_div_100 microsec_clk(.clk(clk), .reset_p(reset_p),.clk_div_100_nedge(clk_microsec));
+    
+    reg[21:0] count_microsec;
+    reg count_microsec_enable;
+    always@(negedge clk or posedge reset_p)begin
+        if(reset_p) count_microsec = 0;
+        else if(clk_microsec && count_microsec_enable) count_microsec = count_microsec + 1;
+        else if(!count_microsec_enable)count_microsec = 0;
+    end
+    
+    wire[3:0]btn_pedge;
+    button_Controller btn0(.clk(clk), .reset_p(reset_p),.btn(btn[0]), .btn_posedge(btn_pedge[0]));
+    button_Controller btn1(.clk(clk), .reset_p(reset_p),.btn(btn[1]), .btn_posedge(btn_pedge[1]));
+    button_Controller btn2(.clk(clk), .reset_p(reset_p),.btn(btn[2]), .btn_posedge(btn_pedge[2]));
+    button_Controller btn3(.clk(clk), .reset_p(reset_p),.btn(btn[3]), .btn_posedge(btn_pedge[3]));
+    
+    reg[7:0] send_buffer;
+    reg rs,send;
+    
+    wire busy; 
+    I2C_LCD_send_byte lcd(.clk(clk),.reset_p(reset_p), .addr(7'h27), .send_buffer(send_buffer),.rs(rs),.send(send),.scl(scl),.sda(sda), .busy(busy),.led(led));
+    
+    
+    reg[5:0] state, next_state;
+    always@(negedge clk or posedge reset_p)begin
+        if(reset_p) state = IDLE; 
+        else state = next_state;
+    end
+    
+    reg init_flag;
+    reg[3:0] data_count;
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p)begin
+            next_state = IDLE;
+            init_flag = 0;
+            data_count = 0;
+            count_microsec_enable = 0;
+        end
+        else begin
+            case(state)
+                IDLE:begin
+                    if(init_flag)begin
+                        if(!busy)begin
+                            if(btn_pedge[0]) next_state = SEND_BYTE;
+                        end
+                    end
+                    else begin
+                        if(count_microsec <= 22'd80_000)begin
+                            count_microsec_enable = 1;
+                        end
+                        else begin
+                            next_state = INIT;    
+                            count_microsec_enable = 0;
+                        end
+                    end
+                end
+                INIT:begin
+                    if(busy)begin
+                        send = 0;
+                        if(data_count >=6)begin
+                            next_state = IDLE;
+                            init_flag = 1;        
+                            data_count = 0;    
+                            rs = 0;     
+                        end
+                    end
+                    else if(!send) begin //s
+                        case(data_count)
+                            0: send_buffer = 8'h33;
+                            1: send_buffer = 8'h32;
+                            2: send_buffer = 8'h28;
+                            3: send_buffer = 8'h0F;
+                            4: send_buffer = 8'h01;
+                            5: send_buffer = 8'h06;
+                        endcase
+                        rs = 0;
+                        send = 1;
+                        data_count = data_count + 1;
+                    end
+                end
+                SEND_BYTE:begin
+                    if(busy)begin
+                        next_state = IDLE;
+                        send = 0;
+                        if(data_count >= 9) data_count = 0;
+                        else data_count = data_count + 1;
+                    end
+                    else begin
+                        send_buffer = "0" +data_count;
+                        rs = 1;
+                        send = 1;
+                    end
+                    
+                end
+            endcase
+        end
+    
+    end
+    
+    
+    
+endmodule

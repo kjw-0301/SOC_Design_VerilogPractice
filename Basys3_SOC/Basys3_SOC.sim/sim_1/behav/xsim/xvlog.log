@@ -1,9 +1,9 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/exam01_combinational_Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/exam01_combinational_Logic.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module AND_Gate
 INFO: [VRFC 10-311] analyzing module Half_adder_structural
 INFO: [VRFC 10-311] analyzing module Half_adder_behavioral
 INFO: [VRFC 10-311] analyzing module Half_adder_dataflow
-INFO: [VRFC 10-2458] undeclared symbol sumvalue, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/exam01_combinational_Logic.v:82]
+INFO: [VRFC 10-2458] undeclared symbol sumvalue, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/exam01_combinational_Logic.v:82]
 INFO: [VRFC 10-311] analyzing module Full_adder_structural
 INFO: [VRFC 10-311] analyzing module Full_adder_behavioral
 INFO: [VRFC 10-311] analyzing module Full_adder_DataFlow
@@ -28,7 +28,7 @@ INFO: [VRFC 10-311] analyzing module DEMUX_1in4
 INFO: [VRFC 10-311] analyzing module demux_1to4
 INFO: [VRFC 10-311] analyzing module mux_demux_test
 INFO: [VRFC 10-311] analyzing module bin_to_dec
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/02_Sequencial_Logic.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/02_Sequencial_Logic.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module D_FF_negativeEdge
 INFO: [VRFC 10-311] analyzing module D_FF_positiveEdge
 INFO: [VRFC 10-311] analyzing module T_FF_negative
@@ -59,7 +59,7 @@ INFO: [VRFC 10-311] analyzing module shift_register_PISO_Nbit_n
 INFO: [VRFC 10-311] analyzing module register_8bit_n
 INFO: [VRFC 10-311] analyzing module register_8bit_Nbit_n
 INFO: [VRFC 10-311] analyzing module SRAM_8bit_1024
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/clock_Library.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/clock_Library.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module clock_div_100
 INFO: [VRFC 10-311] analyzing module clock_div_1000
 INFO: [VRFC 10-311] analyzing module clock_div_10_cc
@@ -71,7 +71,7 @@ INFO: [VRFC 10-311] analyzing module counter_BCD_100_clear
 INFO: [VRFC 10-311] analyzing module Loadable_Down_counter_BCD_60
 INFO: [VRFC 10-311] analyzing module Downcounter_BCD_60
 INFO: [VRFC 10-311] analyzing module SR04_div_58
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module board_test_top
 INFO: [VRFC 10-311] analyzing module ring_counter_fnd
 INFO: [VRFC 10-311] analyzing module ring_counter_LED
@@ -81,18 +81,18 @@ INFO: [VRFC 10-311] analyzing module Loadable_watch_top
 INFO: [VRFC 10-311] analyzing module Loadable_watch_Project
 INFO: [VRFC 10-311] analyzing module stop_watch_top_clear
 INFO: [VRFC 10-311] analyzing module sec_stopwatch_Project
-INFO: [VRFC 10-2458] undeclared symbol clk_start, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:336]
-INFO: [VRFC 10-2458] undeclared symbol lap, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:352]
+INFO: [VRFC 10-2458] undeclared symbol clk_start, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:336]
+INFO: [VRFC 10-2458] undeclared symbol lap, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:352]
 INFO: [VRFC 10-311] analyzing module sec_stopwatch
-INFO: [VRFC 10-2458] undeclared symbol clk_start, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:390]
-INFO: [VRFC 10-2458] undeclared symbol reset_start, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:400]
-INFO: [VRFC 10-2458] undeclared symbol lap, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:403]
-INFO: [VRFC 10-2458] undeclared symbol btn_clear, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:414]
+INFO: [VRFC 10-2458] undeclared symbol clk_start, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:390]
+INFO: [VRFC 10-2458] undeclared symbol reset_start, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:400]
+INFO: [VRFC 10-2458] undeclared symbol lap, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:403]
+INFO: [VRFC 10-2458] undeclared symbol btn_clear, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:414]
 INFO: [VRFC 10-311] analyzing module cook_timer_top
 INFO: [VRFC 10-311] analyzing module cook_timer_Project
-INFO: [VRFC 10-2458] undeclared symbol alarm_posedge, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:513]
+INFO: [VRFC 10-2458] undeclared symbol alarm_posedge, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:513]
 INFO: [VRFC 10-311] analyzing module keypad_test_top
-INFO: [VRFC 10-2458] undeclared symbol led, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:564]
+INFO: [VRFC 10-2458] undeclared symbol led, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:564]
 INFO: [VRFC 10-311] analyzing module dht11_test_top
 INFO: [VRFC 10-311] analyzing module echo_test_top
 INFO: [VRFC 10-311] analyzing module Watch_pj_top
@@ -101,7 +101,9 @@ INFO: [VRFC 10-311] analyzing module DC_Motor_PWM_top
 INFO: [VRFC 10-311] analyzing module servo_PWM_top
 INFO: [VRFC 10-311] analyzing module adc_ch6_top
 INFO: [VRFC 10-311] analyzing module adc_sequence2_top
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2C_Master_top
+INFO: [VRFC 10-311] analyzing module I2C_txtLCD_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module fnd_controller
 INFO: [VRFC 10-311] analyzing module button_Controller
 INFO: [VRFC 10-311] analyzing module key_pad_controller
@@ -110,26 +112,27 @@ INFO: [VRFC 10-311] analyzing module dht11_Controller
 INFO: [VRFC 10-311] analyzing module Echo_Controller
 INFO: [VRFC 10-311] analyzing module Echo_Controller_DownSlack
 INFO: [VRFC 10-311] analyzing module PWM_100s_step
-INFO: [VRFC 10-2458] undeclared symbol clk_div_100, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:695]
-INFO: [VRFC 10-2458] undeclared symbol clk_div_100_negedge, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:696]
+INFO: [VRFC 10-2458] undeclared symbol clk_div_100, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:695]
+INFO: [VRFC 10-2458] undeclared symbol clk_div_100_negedge, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:696]
 INFO: [VRFC 10-311] analyzing module PWM_100s_128step
-INFO: [VRFC 10-2458] undeclared symbol clk_div_100, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:734]
-INFO: [VRFC 10-2458] undeclared symbol clk_div_100_negedge, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:735]
+INFO: [VRFC 10-2458] undeclared symbol clk_div_100, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:734]
+INFO: [VRFC 10-2458] undeclared symbol clk_div_100_negedge, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:735]
 INFO: [VRFC 10-311] analyzing module PWM_100step
-INFO: [VRFC 10-2458] undeclared symbol pwm_freqX100, assumed default net type wire [C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:771]
+INFO: [VRFC 10-2458] undeclared symbol pwm_freqX100, assumed default net type wire [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:771]
 INFO: [VRFC 10-311] analyzing module PWM_Nstep_freq
 INFO: [VRFC 10-311] analyzing module I2C_Master
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module I2C_LCD_send_byte
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/ip/xadc_wiz_0/xadc_wiz_0.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module xadc_wiz_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sources_1/ip/xadc_wiz_1/xadc_wiz_1.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/ip/xadc_wiz_1/xadc_wiz_1.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module xadc_wiz_1
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_SISO_Nbit_n.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_SISO_Nbit_n.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_shift_register_SISO_Nbit_n
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_SIPO_Nbit_n.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_SIPO_Nbit_n.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_shift_register_SIPO_Nbit_n
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_PISO_Nbit_n.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_shift_register_PISO_Nbit_n.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_shift_register_PISO_Nbit_n
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_register_8bit_Nbit_n.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_register_8bit_Nbit_n.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_register_8bit_Nbit_n
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/JW/SOC_/Vivado_WorkSpace/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_dht11_Controller.v" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sim_1/new/tb_dht11_Controller.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module tb_dht11_Controller

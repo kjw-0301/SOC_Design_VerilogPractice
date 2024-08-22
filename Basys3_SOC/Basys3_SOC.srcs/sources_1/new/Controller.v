@@ -951,9 +951,130 @@ module I2C_Master(
                 end   
             endcase
         end
+    end 
+endmodule
+
+
+module I2C_LCD_send_byte(
+    input clk,reset_p,
+    input[6:0] addr,
+    input[7:0] send_buffer,
+    input rs,send,
+    output scl,sda,
+    output reg busy,
+    output[15:0] led);
+    
+    parameter IDLE = 6'b00_0001;
+    parameter SEND_HIGH_NIBBLE_DISABLE = 6'b00_0010; //NIBBLE = 4bit 
+    parameter SEND_HIGH_NIBBLE_ENABLE = 6'b00_0100;
+    parameter SEND_LOW_NIBBLE_DISABLE = 6'b00_1000;
+    parameter SEND_LOW_NIBBLE_ENABLE = 6'b01_0000;
+    parameter SEND_DISABLE = 6'b10_0000;
+    
+    reg[7:0] data;
+    reg comm_go;
+    
+    wire send_pedge;
+    edge_dectector_n comm_edge(.clk(clk), .reset_p(reset_p),.cp(send), .p_edge(send_pedge));
+    
+    wire clk_microsec;
+    clock_div_100 microsec_clk(.clk(clk), .reset_p(reset_p),.clk_div_100_nedge(clk_microsec));
+    
+    reg[21:0] count_microsec;
+    reg count_microsec_enable;
+    always@(negedge clk or posedge reset_p)begin
+        if(reset_p) count_microsec = 0;
+        else if(clk_microsec && count_microsec_enable) count_microsec = count_microsec + 1;
+        else if(!count_microsec_enable)count_microsec = 0;
+    end    
+    reg[5:0] state, next_state;
+    always@(negedge clk or posedge reset_p)begin
+        if(reset_p) state = IDLE;
+        else state = next_state;
+    end
+    
+    always@(posedge clk or posedge reset_p)begin
+        if(reset_p)begin
+            next_state = IDLE;
+            busy = 0;
+            comm_go = 0;
+            data = 0;
+            count_microsec_enable = 0;
+        end
+        else begin
+            case(state)
+                IDLE:begin
+                    if(send_pedge)begin
+                        next_state = SEND_HIGH_NIBBLE_DISABLE;
+                        busy = 1;
+                    end
+                end
+                SEND_HIGH_NIBBLE_DISABLE:begin
+                    if(count_microsec <= 22'd200)begin
+                        data = {send_buffer[7:4],3'b100,rs}; //[d7 d6 d5 d4], BT, E, RW, RS 
+                        comm_go = 1;
+                        count_microsec_enable = 1;
+                    end
+                    else begin
+                        count_microsec_enable = 0;
+                        comm_go = 0;
+                        next_state = SEND_HIGH_NIBBLE_ENABLE;
+                    end
+                end
+                SEND_HIGH_NIBBLE_ENABLE:begin
+                    if(count_microsec <= 22'd200)begin
+                        data = {send_buffer[7:4],3'b110,rs}; //[d7 d6 d5 d4], BT, E, RW, RS 
+                        comm_go = 1;
+                        count_microsec_enable = 1;
+                    end
+                    else begin
+                        count_microsec_enable = 0;
+                        comm_go = 0;
+                        next_state = SEND_LOW_NIBBLE_DISABLE;
+                    end
+                end
+                SEND_LOW_NIBBLE_DISABLE:begin
+                    if(count_microsec <= 22'd200)begin
+                        data = {send_buffer[3:0],3'b100,rs}; //[d7 d6 d5 d4], BT, E, RW, RS 
+                        comm_go = 1;
+                        count_microsec_enable = 1;
+                    end
+                    else begin
+                        count_microsec_enable = 0;
+                        comm_go = 0;
+                        next_state = SEND_LOW_NIBBLE_ENABLE;
+                    end
+                end
+                SEND_LOW_NIBBLE_ENABLE:begin
+                    if(count_microsec <= 22'd200)begin
+                        data = {send_buffer[3:0],3'b110,rs}; //[d7 d6 d5 d4], BT, E, RW, RS 
+                        comm_go = 1;
+                        count_microsec_enable = 1;
+                    end
+                    else begin
+                        count_microsec_enable = 0;
+                        comm_go = 0;
+                        next_state = SEND_DISABLE;
+                    end
+                end
+                SEND_DISABLE:begin
+                    if(count_microsec <= 22'd200)begin
+                        data = {send_buffer[3:0],3'b100,rs}; //[d7 d6 d5 d4], BT, E, RW, RS 
+                        comm_go = 1;
+                        count_microsec_enable = 1;
+                    end
+                    else begin
+                        count_microsec_enable = 0;
+                        comm_go = 0;
+                        next_state = IDLE;
+                        busy = 0;
+                    end
+                end             
+            endcase
+        end
     end
     
     
-    
-endmodule
+    I2C_Master master(.clk(clk), .reset_p(reset_p), .addr(addr), .rd_wr(0), .data(data), .comm_go(comm_go), .scl(scl),.sda(sda), .led_debug(led));
 
+endmodule
