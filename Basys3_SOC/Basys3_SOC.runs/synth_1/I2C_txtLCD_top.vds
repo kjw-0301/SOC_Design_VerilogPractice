@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Aug 22 17:26:07 2024
-# Process ID: 8392
+# Start of session at: Fri Aug 23 10:45:52 2024
+# Process ID: 8720
 # Current directory: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1
 # Command line: vivado.exe -log I2C_txtLCD_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_txtLCD_top.tcl
 # Log file: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1/I2C_txtLCD_top.vds
@@ -16,27 +16,30 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 1272 
+INFO: Helper process launched with PID 12272 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1160.395 ; gain = 229.438
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1161.652 ; gain = 230.418
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'I2C_txtLCD_top' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:914]
-	Parameter IDLE bound to: 3'b001 
-	Parameter INIT bound to: 3'b010 
-	Parameter SEND_BYTE bound to: 3'b100 
+	Parameter IDLE bound to: 6'b000001 
+	Parameter INIT bound to: 6'b000010 
+	Parameter SEND_DATA bound to: 6'b000100 
+	Parameter SEND_COMMAND_LINE_D bound to: 6'b001000 
+	Parameter SEND_COMMAND_LINE_U bound to: 6'b010000 
+	Parameter SEND_COMMAND_STRING bound to: 6'b100000 
 INFO: [Synth 8-6157] synthesizing module 'clock_div_100' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/clock_Library.v:21]
 INFO: [Synth 8-6157] synthesizing module 'edge_dectector_n' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/02_Sequencial_Logic.v:287]
 INFO: [Synth 8-6155] done synthesizing module 'edge_dectector_n' (1#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/02_Sequencial_Logic.v:287]
 WARNING: [Synth 8-7023] instance 'ed' of module 'edge_dectector_n' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/clock_Library.v:37]
 INFO: [Synth 8-6155] done synthesizing module 'clock_div_100' (2#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/clock_Library.v:21]
-WARNING: [Synth 8-7023] instance 'microsec_clk' of module 'clock_div_100' has 4 connections declared, but only 3 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:925]
+WARNING: [Synth 8-7023] instance 'microsec_clk' of module 'clock_div_100' has 4 connections declared, but only 3 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:928]
 INFO: [Synth 8-6157] synthesizing module 'button_Controller' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:48]
 WARNING: [Synth 8-7023] instance 'ed_clk' of module 'edge_dectector_n' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:57]
 INFO: [Synth 8-6155] done synthesizing module 'button_Controller' (3#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:48]
-WARNING: [Synth 8-7023] instance 'btn0' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:936]
-WARNING: [Synth 8-7023] instance 'btn1' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:937]
-WARNING: [Synth 8-7023] instance 'btn2' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:938]
-WARNING: [Synth 8-7023] instance 'btn3' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:939]
+WARNING: [Synth 8-7023] instance 'btn0' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:939]
+WARNING: [Synth 8-7023] instance 'btn1' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:940]
+WARNING: [Synth 8-7023] instance 'btn2' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:941]
+WARNING: [Synth 8-7023] instance 'btn3' of module 'button_Controller' has 5 connections declared, but only 4 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:942]
 INFO: [Synth 8-6157] synthesizing module 'I2C_LCD_send_byte' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:958]
 	Parameter IDLE bound to: 6'b000001 
 	Parameter SEND_HIGH_NIBBLE_DISABLE bound to: 6'b000010 
@@ -61,11 +64,12 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/mink
 WARNING: [Synth 8-3848] Net led_debug in module/entity I2C_Master does not have driver. [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:836]
 INFO: [Synth 8-6155] done synthesizing module 'I2C_Master' (4#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:829]
 INFO: [Synth 8-6155] done synthesizing module 'I2C_LCD_send_byte' (5#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:958]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:992]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:964]
-WARNING: [Synth 8-5788] Register send_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:945]
-WARNING: [Synth 8-5788] Register rs_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:945]
-WARNING: [Synth 8-5788] Register send_buffer_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:945]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:1002]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:1063]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:971]
+WARNING: [Synth 8-5788] Register send_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:948]
+WARNING: [Synth 8-5788] Register rs_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:948]
+WARNING: [Synth 8-5788] Register send_buffer_reg in module I2C_txtLCD_top is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:948]
 INFO: [Synth 8-6155] done synthesizing module 'I2C_txtLCD_top' (6#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/test_top.v:914]
 WARNING: [Synth 8-3331] design I2C_Master has unconnected port led_debug[15]
 WARNING: [Synth 8-3331] design I2C_Master has unconnected port led_debug[14]
@@ -84,7 +88,7 @@ WARNING: [Synth 8-3331] design I2C_Master has unconnected port led_debug[2]
 WARNING: [Synth 8-3331] design I2C_Master has unconnected port led_debug[1]
 WARNING: [Synth 8-3331] design I2C_Master has unconnected port led_debug[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1235.191 ; gain = 304.234
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1236.195 ; gain = 304.961
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -97,12 +101,12 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1235.191 ; gain = 304.234
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1236.195 ; gain = 304.961
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1235.191 ; gain = 304.234
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1236.195 ; gain = 304.961
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1235.191 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1236.195 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -155,30 +159,30 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/I2C_txtLCD_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1334.199 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1344.625 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1334.199 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1344.625 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-4471] merging register 'comm_go_reg' into 'count_microsec_enable_reg' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.srcs/sources_1/new/Controller.v:1000]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -192,31 +196,31 @@ Start RTL Component Statistics
 Detailed RTL Component Info : 
 +---Adders : 
 	   2 Input      7 Bit       Adders := 3     
-	   2 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
 	   2 Input      3 Bit       Adders := 2     
 +---Registers : 
+	               40 Bit    Registers := 1     
 	                8 Bit    Registers := 2     
 	                7 Bit    Registers := 5     
 	                6 Bit    Registers := 4     
-	                4 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
 	                3 Bit    Registers := 2     
 	                1 Bit    Registers := 41    
 +---Muxes : 
-	   2 Input      8 Bit        Muxes := 2     
-	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
 	   7 Input      8 Bit        Muxes := 1     
 	   2 Input      7 Bit        Muxes := 3     
 	   8 Input      7 Bit        Muxes := 1     
-	   2 Input      6 Bit        Muxes := 2     
-	   7 Input      6 Bit        Muxes := 1     
-	   4 Input      6 Bit        Muxes := 1     
-	   2 Input      4 Bit        Muxes := 3     
-	   4 Input      4 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 4     
-	   2 Input      1 Bit        Muxes := 49    
+	   2 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 2     
+	   5 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 46    
 	   8 Input      1 Bit        Muxes := 7     
-	   7 Input      1 Bit        Muxes := 6     
-	   4 Input      1 Bit        Muxes := 8     
+	   7 Input      1 Bit        Muxes := 12    
+	   6 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -227,24 +231,23 @@ Hierarchical RTL Component report
 Module I2C_txtLCD_top 
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input      4 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
 +---Registers : 
+	               40 Bit    Registers := 1     
 	                8 Bit    Registers := 1     
 	                6 Bit    Registers := 2     
-	                4 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
 	                1 Bit    Registers := 4     
 +---Muxes : 
-	   2 Input      8 Bit        Muxes := 2     
-	   4 Input      8 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
 	   7 Input      8 Bit        Muxes := 1     
-	   2 Input      6 Bit        Muxes := 1     
-	   4 Input      6 Bit        Muxes := 1     
-	   2 Input      4 Bit        Muxes := 3     
-	   4 Input      4 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 16    
-	   4 Input      1 Bit        Muxes := 8     
-	   7 Input      1 Bit        Muxes := 1     
+	   5 Input      6 Bit        Muxes := 1     
+	   7 Input      6 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 2     
+	   7 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 13    
+	   7 Input      1 Bit        Muxes := 7     
+	   6 Input      1 Bit        Muxes := 1     
 Module edge_dectector_n 
 Detailed RTL Component Info : 
 +---Registers : 
@@ -325,16 +328,49 @@ WARNING: [Synth 8-3331] design I2C_txtLCD_top has unconnected port led[3]
 WARNING: [Synth 8-3331] design I2C_txtLCD_top has unconnected port led[2]
 WARNING: [Synth 8-3331] design I2C_txtLCD_top has unconnected port led[1]
 WARNING: [Synth 8-3331] design I2C_txtLCD_top has unconnected port led[0]
-INFO: [Synth 8-3886] merging instance 'next_state_reg[5]' (FDCE) to 'next_state_reg[4]'
-INFO: [Synth 8-3886] merging instance 'next_state_reg[4]' (FDCE) to 'next_state_reg[3]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\next_state_reg[3] )
-INFO: [Synth 8-3886] merging instance 'state_reg[5]' (FDC_1) to 'state_reg[3]'
-INFO: [Synth 8-3886] merging instance 'state_reg[4]' (FDC_1) to 'state_reg[3]'
-INFO: [Synth 8-3886] merging instance 'send_buffer_reg[7]' (FDE) to 'send_buffer_reg[6]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\send_buffer_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[39] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[7] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[35] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[27] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[19] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[11] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[3] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[38] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[30] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[22] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[14] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[34] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[26] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[18] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[10] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[37] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[33] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[25] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[9] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[36] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[32] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\hello_reg[8] )
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\hello_reg[0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\lcd/data_reg[1] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -346,13 +382,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:31 . Memory (MB): peak = 1334.199 ; gain = 403.242
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1344.625 ; gain = 413.391
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1335.750 ; gain = 404.793
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1346.055 ; gain = 414.820
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -364,7 +400,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 1338.859 ; gain = 407.902
+Finished Technology Mapping : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1348.305 ; gain = 417.070
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -388,13 +424,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -413,25 +449,25 @@ Report Check Netlist:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -449,63 +485,69 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |    17|
-|3     |LUT1   |     3|
-|4     |LUT2   |    15|
-|5     |LUT3   |    21|
-|6     |LUT4   |    63|
-|7     |LUT5   |    21|
-|8     |LUT6   |    53|
-|9     |FDCE   |   129|
-|10    |FDPE   |    11|
-|11    |FDRE   |    25|
-|12    |IBUF   |     3|
+|3     |LUT1   |     4|
+|4     |LUT2   |    23|
+|5     |LUT3   |    23|
+|6     |LUT4   |    65|
+|7     |LUT5   |    24|
+|8     |LUT6   |    70|
+|9     |FDCE   |   146|
+|10    |FDPE   |    13|
+|11    |FDRE   |    27|
+|12    |IBUF   |     6|
 |13    |OBUF   |     1|
 |14    |OBUFT  |    17|
 +------+-------+------+
 
 Report Instance Areas: 
-+------+-------------------+-------------------+------+
-|      |Instance           |Module             |Cells |
-+------+-------------------+-------------------+------+
-|1     |top                |                   |   380|
-|2     |  btn0             |button_Controller  |    30|
-|3     |    ed_btn         |edge_dectector_n_7 |     3|
-|4     |    ed_clk         |edge_dectector_n_8 |     3|
-|5     |  lcd              |I2C_LCD_send_byte  |   217|
-|6     |    comm_edge      |edge_dectector_n_0 |     6|
-|7     |    master         |I2C_Master         |    83|
-|8     |      comm_edge    |edge_dectector_n_3 |     3|
-|9     |      microsec_clk |clock_div_100_4    |    20|
-|10    |        ed         |edge_dectector_n_6 |     4|
-|11    |      scl_edge     |edge_dectector_n_5 |    12|
-|12    |    microsec_clk   |clock_div_100_1    |    49|
-|13    |      ed           |edge_dectector_n_2 |    33|
-|14    |  microsec_clk     |clock_div_100      |    49|
-|15    |    ed             |edge_dectector_n   |    33|
-+------+-------------------+-------------------+------+
++------+-------------------+--------------------+------+
+|      |Instance           |Module              |Cells |
++------+-------------------+--------------------+------+
+|1     |top                |                    |   437|
+|2     |  btn0             |button_Controller   |    30|
+|3     |    ed_btn         |edge_dectector_n_13 |     3|
+|4     |    ed_clk         |edge_dectector_n_14 |     3|
+|5     |  btn1             |button_Controller_0 |     5|
+|6     |    ed_btn         |edge_dectector_n_12 |     4|
+|7     |  btn2             |button_Controller_1 |     3|
+|8     |    ed_btn         |edge_dectector_n_11 |     2|
+|9     |  btn3             |button_Controller_2 |     7|
+|10    |    ed_btn         |edge_dectector_n_10 |     6|
+|11    |  lcd              |I2C_LCD_send_byte   |   226|
+|12    |    comm_edge      |edge_dectector_n_3  |     6|
+|13    |    master         |I2C_Master          |    84|
+|14    |      comm_edge    |edge_dectector_n_6  |     3|
+|15    |      microsec_clk |clock_div_100_7     |    20|
+|16    |        ed         |edge_dectector_n_9  |     4|
+|17    |      scl_edge     |edge_dectector_n_8  |    13|
+|18    |    microsec_clk   |clock_div_100_4     |    49|
+|19    |      ed           |edge_dectector_n_5  |    33|
+|20    |  microsec_clk     |clock_div_100       |    49|
+|21    |    ed             |edge_dectector_n    |    33|
++------+-------------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 16 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 1344.527 ; gain = 314.562
-Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:37 . Memory (MB): peak = 1344.527 ; gain = 413.570
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:34 . Memory (MB): peak = 1352.988 ; gain = 313.324
+Synthesis Optimization Complete : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1352.988 ; gain = 421.754
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1356.637 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1365.035 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1356.637 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.312 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-44 Infos, 59 Warnings, 14 Critical Warnings and 0 Errors encountered.
+78 Infos, 59 Warnings, 14 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:46 . Memory (MB): peak = 1356.637 ; gain = 683.570
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1356.637 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:43 ; elapsed = 00:00:46 . Memory (MB): peak = 1369.312 ; gain = 697.891
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1369.312 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1/I2C_txtLCD_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file I2C_txtLCD_top_utilization_synth.rpt -pb I2C_txtLCD_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Aug 22 17:27:11 2024...
+INFO: [Common 17-206] Exiting Vivado at Fri Aug 23 10:46:57 2024...

@@ -917,9 +917,12 @@ module I2C_txtLCD_top(
     output scl,sda,
     output[15:0]led);
     
-    parameter IDLE = 3'b001;
-    parameter INIT = 3'b010;
-    parameter SEND_BYTE = 3'b100;
+    parameter IDLE = 6'b00_0001;
+    parameter INIT = 6'b00_0010;
+    parameter SEND_DATA = 6'b00_0100;
+    parameter SEND_COMMAND_LINE_D = 6'b00_1000;
+    parameter SEND_COMMAND_LINE_U = 6'b01_0000;
+    parameter SEND_COMMAND_STRING = 6'b10_0000;
     
     wire clk_microsec;
     clock_div_100 microsec_clk(.clk(clk), .reset_p(reset_p),.clk_div_100_nedge(clk_microsec));
@@ -953,19 +956,26 @@ module I2C_txtLCD_top(
     
     reg init_flag;
     reg[3:0] data_count;
+    reg[8*5-1:0] hello;
+    reg[3:0] cnt_string;
     always@(posedge clk or posedge reset_p)begin
         if(reset_p)begin
             next_state = IDLE;
             init_flag = 0;
             data_count = 0;
             count_microsec_enable = 0;
+            hello = "HELLO";
+            cnt_string = 5;
         end
         else begin
             case(state)
                 IDLE:begin
                     if(init_flag)begin
                         if(!busy)begin
-                            if(btn_pedge[0]) next_state = SEND_BYTE;
+                            if(btn_pedge[0]) next_state = SEND_DATA;
+                            if(btn_pedge[1]) next_state = SEND_COMMAND_LINE_D;
+                            if(btn_pedge[2]) next_state = SEND_COMMAND_LINE_U;
+                            if(btn_pedge[3]) next_state = SEND_COMMAND_STRING;
                         end
                     end
                     else begin
@@ -1002,7 +1012,7 @@ module I2C_txtLCD_top(
                         data_count = data_count + 1;
                     end
                 end
-                SEND_BYTE:begin
+                    SEND_DATA:begin
                     if(busy)begin
                         next_state = IDLE;
                         send = 0;
@@ -1014,7 +1024,53 @@ module I2C_txtLCD_top(
                         rs = 1;
                         send = 1;
                     end
-                    
+                end
+                SEND_COMMAND_LINE_D:begin
+                    if(busy)begin
+                        next_state = IDLE;
+                        send = 0;
+                        if(data_count >= 9) data_count = 0;
+                        else data_count = data_count + 1;
+                    end
+                    else begin
+                        send_buffer = 8'hC0;
+                        rs = 0;
+                        send = 1;
+                    end 
+                end
+                SEND_COMMAND_LINE_U:begin
+                    if(busy)begin
+                        next_state = IDLE;
+                        send = 0;
+                        if(data_count >= 9) data_count = 0;
+                        else data_count = data_count + 1;
+                    end
+                    else begin
+                        send_buffer = 8'h80;
+                        rs = 0;
+                        send = 1;
+                    end 
+                end
+                SEND_COMMAND_STRING:begin
+                    if(busy)begin
+                        send = 0;
+                        if(cnt_string < 1)begin
+                            next_state = IDLE;
+                            cnt_string = 5;    
+                        end
+                    end
+                    else if(!send) begin //s
+                        case(cnt_string)
+                            5: send_buffer = hello[39:32];
+                            4: send_buffer = hello[31:24];
+                            3: send_buffer = hello[23:16];
+                            2: send_buffer = hello[15:8];
+                            1: send_buffer = hello[7:0];
+                        endcase
+                        rs = 1;
+                        send = 1;
+                        cnt_string = cnt_string - 1;
+                    end
                 end
             endcase
         end

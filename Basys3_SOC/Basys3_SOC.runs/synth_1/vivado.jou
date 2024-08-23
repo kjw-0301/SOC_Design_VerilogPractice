@@ -2,8 +2,8 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Aug 22 17:26:07 2024
-# Process ID: 8392
+# Start of session at: Fri Aug 23 10:45:52 2024
+# Process ID: 8720
 # Current directory: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1
 # Command line: vivado.exe -log I2C_txtLCD_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source I2C_txtLCD_top.tcl
 # Log file: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Basys3_SOC/Basys3_SOC.runs/synth_1/I2C_txtLCD_top.vds
