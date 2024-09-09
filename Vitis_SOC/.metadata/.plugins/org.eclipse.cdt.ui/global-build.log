@@ -1,0 +1,8 @@
+Nothing to build in platform 'blaze_FND_hw'
+
+17:44:50 **** Incremental Build of configuration Debug for project blaze_FND_app ****
+make all 
+make: Nothing to be done for 'all'.
+17:44:51 **** Incremental Build of configuration Debug for project blaze_FND_app_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

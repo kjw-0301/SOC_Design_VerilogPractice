@@ -955,8 +955,8 @@ module I2C_txtLCD_top(
     end
     
     reg init_flag;
-    reg[3:0] data_count;
-    reg[8*5-1:0] hello;
+    reg[5:0] data_count;
+    reg[8*14-1:0] init_word;
     reg[3:0] cnt_string;
     always@(posedge clk or posedge reset_p)begin
         if(reset_p)begin
@@ -964,8 +964,8 @@ module I2C_txtLCD_top(
             init_flag = 0;
             data_count = 0;
             count_microsec_enable = 0;
-            hello = "HELLO";
-            cnt_string = 5;
+            init_word = "Enter Passward";
+            cnt_string = 14;
         end
         else begin
             case(state)
@@ -989,9 +989,9 @@ module I2C_txtLCD_top(
                     end
                 end
                 INIT:begin
-                    if(busy)begin
+                     if(busy)begin
                         send = 0;
-                        if(data_count >=6)begin
+                        if(data_count > 21)begin
                             next_state = IDLE;
                             init_flag = 1;        
                             data_count = 0;    
@@ -1006,8 +1006,26 @@ module I2C_txtLCD_top(
                             3: send_buffer = 8'h0F;
                             4: send_buffer = 8'h01;
                             5: send_buffer = 8'h06;
+                            6: send_buffer =  init_word[111:104];
+                            7: send_buffer =  init_word[103:96]; 
+                            8: send_buffer =  init_word[95:88];  
+                            9: send_buffer =  init_word[87:80];  
+                            10: send_buffer = init_word[79:72];  
+                            11: send_buffer = init_word[71:64];  
+                            12: send_buffer = init_word[63:56];  
+                            13: send_buffer = init_word[55:48];  
+                            14: send_buffer = init_word[47:40];  
+                            15: send_buffer = init_word[39:32];  
+                            16: send_buffer = init_word[31:24];  
+                            17: send_buffer = init_word[23:16];  
+                            18: send_buffer = init_word[15:8];   
+                            19: send_buffer = init_word[7:0];                             
+                            20: send_buffer = 8'h06;                             
+                            21: send_buffer = 8'hC0;                             
                         endcase
-                        rs = 0;
+                        if(data_count <= 5) rs=0;
+                        else if(data_count > 5 && data_count < 20)rs = 1;
+                        else if(data_count > 19)rs = 0;
                         send = 1;
                         data_count = data_count + 1;
                     end
@@ -1056,16 +1074,25 @@ module I2C_txtLCD_top(
                         send = 0;
                         if(cnt_string < 1)begin
                             next_state = IDLE;
-                            cnt_string = 5;    
+                            cnt_string = 14;    
                         end
                     end
                     else if(!send) begin //s
                         case(cnt_string)
-                            5: send_buffer = hello[39:32];
-                            4: send_buffer = hello[31:24];
-                            3: send_buffer = hello[23:16];
-                            2: send_buffer = hello[15:8];
-                            1: send_buffer = hello[7:0];
+                            14: send_buffer = init_word[111:104];
+                            13: send_buffer = init_word[103:96]; 
+                            12: send_buffer = init_word[95:88];  
+                            11: send_buffer = init_word[87:80];  
+                            10: send_buffer = init_word[79:72];  
+                            9: send_buffer =  init_word[71:64];  
+                            8: send_buffer =  init_word[63:56];  
+                            7: send_buffer =  init_word[55:48];  
+                            6: send_buffer =  init_word[47:40];  
+                            5: send_buffer =  init_word[39:32];  
+                            4: send_buffer =  init_word[31:24];  
+                            3: send_buffer =  init_word[23:16];  
+                            2: send_buffer =  init_word[15:8];   
+                            1: send_buffer =  init_word[7:0];    
                         endcase
                         rs = 1;
                         send = 1;

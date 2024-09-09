@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="Mblaze_btn_app" location="C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app" platform="C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/export/Mblaze_btn_hw/Mblaze_btn_hw.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="Mblaze_btn_app_system" sysConfig="Mblaze_btn_hw" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="976bb7c92435cefcef4729925e8cc574">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.941114802">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1913011630" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

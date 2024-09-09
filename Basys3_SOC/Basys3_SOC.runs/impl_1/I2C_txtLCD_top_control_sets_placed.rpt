@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
-| Date         : Fri Aug 23 10:47:56 2024
+| Date         : Wed Aug 28 11:48:19 2024
 | Host         : DESKTOP-VQQPT2C running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file I2C_txtLCD_top_control_sets_placed.rpt
 | Design       : I2C_txtLCD_top
@@ -27,7 +27,7 @@ Table of Contents
 |    Minimum number of control sets                        |    13 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    38 |
+| Unused register locations in slices containing registers |    36 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -41,8 +41,8 @@ Table of Contents
 +--------------------+-------+
 | Total control sets |    13 |
 | >= 0 to < 4        |     0 |
-| >= 4 to < 6        |     3 |
-| >= 6 to < 8        |     4 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     5 |
 | >= 8 to < 10       |     1 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
@@ -59,10 +59,10 @@ Table of Contents
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | No           | No                    | No                     |              19 |            7 |
-| No           | No                    | Yes                    |              77 |           29 |
+| No           | No                    | Yes                    |              77 |           28 |
 | No           | Yes                   | No                     |               0 |            0 |
-| Yes          | No                    | No                     |               8 |            2 |
-| Yes          | No                    | Yes                    |              82 |           27 |
+| Yes          | No                    | No                     |               8 |            8 |
+| Yes          | No                    | Yes                    |              84 |           23 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -73,18 +73,18 @@ Table of Contents
 +----------------+----------------------------------+------------------+------------------+----------------+
 |  Clock Signal  |           Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +----------------+----------------------------------+------------------+------------------+----------------+
-|  clk_IBUF_BUFG | lcd/E[0]                         | reset_p_IBUF     |                2 |              4 |
-|  clk_IBUF_BUFG | lcd/state_reg[5]_0[0]            | reset_p_IBUF     |                2 |              4 |
-|  clk_IBUF_BUFG | btn0/ed_clk/ff_old_reg_0         | reset_p_IBUF     |                2 |              4 |
-|  clk_IBUF_BUFG | lcd/comm_edge/E[0]               | reset_p_IBUF     |                2 |              6 |
+|  clk_IBUF_BUFG | lcd/state_reg[1]_0[0]            | reset_p_IBUF     |                1 |              4 |
+|  clk_IBUF_BUFG | btn0/ed_clk/ff_old_reg_0         | reset_p_IBUF     |                1 |              4 |
+|  clk_IBUF_BUFG | lcd/comm_edge/E[0]               | reset_p_IBUF     |                1 |              6 |
 |  clk_IBUF_BUFG | lcd/count_microsec_reg[16]_0[0]  | reset_p_IBUF     |                2 |              6 |
+|  clk_IBUF_BUFG | lcd/E[0]                         | reset_p_IBUF     |                2 |              6 |
+|  clk_IBUF_BUFG | lcd/data                         | reset_p_IBUF     |                2 |              7 |
 |  clk_IBUF_BUFG | lcd/master/scl_edge/E[0]         | reset_p_IBUF     |                2 |              7 |
-|  clk_IBUF_BUFG | lcd/data                         | reset_p_IBUF     |                3 |              7 |
-|  clk_IBUF_BUFG | lcd/send_reg[0]                  |                  |                2 |              8 |
+|  clk_IBUF_BUFG | lcd/state_reg[1]_1[0]            |                  |                8 |              8 |
 |  clk_IBUF_BUFG |                                  |                  |                7 |             19 |
 | ~clk_IBUF_BUFG | lcd/microsec_clk/ed/ff_old_reg_0 | reset_p_IBUF     |                6 |             22 |
 | ~clk_IBUF_BUFG | microsec_clk/ed/ff_old_reg_0     | reset_p_IBUF     |                6 |             22 |
-| ~clk_IBUF_BUFG |                                  | reset_p_IBUF     |               10 |             33 |
+| ~clk_IBUF_BUFG |                                  | reset_p_IBUF     |                9 |             33 |
 |  clk_IBUF_BUFG |                                  | reset_p_IBUF     |               19 |             44 |
 +----------------+----------------------------------+------------------+------------------+----------------+
 

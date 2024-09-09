@@ -1,0 +1,532 @@
+!SESSION 2024-09-09 10:42:19.682 -----------------------------------------------
+eclipse.buildId=2019.2
+java.version=9.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC
+
+This is a continuation of log file C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.metadata\.bak_0.log
+Created Time: 2024-09-09 17:43:46.200
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.201
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.228
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.229
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.237
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.257
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.265
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.266
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.289
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.290
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.318
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:46.319
+!MESSAGE XSCT Command: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.589
+!MESSAGE XSCT command with result: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.620
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.622
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.623
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.650
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.650
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.662
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:47.663
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.667
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.668
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.689
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.690
+!MESSAGE XSCT Command: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.750
+!MESSAGE XSCT command with result: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.821
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.868
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.869
+!MESSAGE XSCT Command: [con], Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:43:50.882
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-61: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:43:50.884
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '25'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:43:50.885
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '26'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.304
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.316
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.316
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.325
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:16.325
+!MESSAGE Generating MD5 hash for file: C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\blaze_FND_hw\export\blaze_FND_hw\sw\blaze_FND_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.326
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:16.331
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-73: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:18.996
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '34'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.129
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.139
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.140
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.148
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:30.149
+!MESSAGE Generating MD5 hash for file: C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\blaze_FND_hw\export\blaze_FND_hw\sw\blaze_FND_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.150
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:30.155
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-67: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:32.631
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '35'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.221
+!MESSAGE XSCT Command: [disconnect tcfchan#29], Thread: Thread-2437
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.230
+!MESSAGE XSCT command with result: [disconnect tcfchan#29], Result: [null, ]. Thread: Thread-2437
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.282
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.287
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#30]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.288
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.303
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.303
+!MESSAGE XSCT Command: [version -server], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.308
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.308
+!MESSAGE XSCT Command: [version], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.313
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.314
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.321
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.322
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.345
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.345
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.354
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.354
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.381
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.382
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.392
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.393
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.418
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.419
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.426
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.427
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.450
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.451
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.476
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.477
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.478
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.501
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.510
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.510
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.538
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.539
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.578
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:37.579
+!MESSAGE XSCT Command: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.901
+!MESSAGE XSCT command with result: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.932
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.934
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.936
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.962
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.963
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.966
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:38.967
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:41.980
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:41.981
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.001
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.002
+!MESSAGE XSCT Command: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.076
+!MESSAGE XSCT command with result: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.135
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.180
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.181
+!MESSAGE XSCT Command: [con], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:42.185
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:42.187
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '26'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:42.187
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '27'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.925
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.935
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss ], Result: [null, ]. Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.935
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.944
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "7.1",
+}]. Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:49.944
+!MESSAGE Generating MD5 hash for file: C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\blaze_FND_hw\export\blaze_FND_hw\sw\blaze_FND_hw\standalone_domain\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.945
+!MESSAGE XSCT Command: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:49.950
+!MESSAGE XSCT command with result: [::hsi::utils::closesw C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/sw/blaze_FND_hw/standalone_domain/system.mss], Result: [null, ]. Thread: Worker-71: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:44:51.613
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '36'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.774
+!MESSAGE XSCT Command: [disconnect tcfchan#30], Thread: Thread-2479
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.784
+!MESSAGE XSCT command with result: [disconnect tcfchan#30], Result: [null, ]. Thread: Thread-2479
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.833
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.839
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#31]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.840
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.861
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.861
+!MESSAGE XSCT Command: [version -server], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.863
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2019.2]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.863
+!MESSAGE XSCT Command: [version], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.864
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2019.2
+SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.865
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.872
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.873
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.895
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.895
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.903
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.904
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.926
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.927
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.934
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.934
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.957
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.958
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.966
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.966
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.987
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:57.988
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.010
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Basys3 210183BB7F95A" && level == 0}], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.011
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.012
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.036
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.044
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Basys3 210183BB7F95A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.045
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.069
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==1}], Result: [null,      2  xc7a35t (idcode 0362d093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.069
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.098
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:58.098
+!MESSAGE XSCT Command: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.419
+!MESSAGE XSCT command with result: [fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.452
+!MESSAGE XSCT Command: [configparams mdm-detect-bscan-mask 2], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.455
+!MESSAGE XSCT command with result: [configparams mdm-detect-bscan-mask 2], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.456
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.480
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.481
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.485
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:44:59.486
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.501
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.502
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.523
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.524
+!MESSAGE XSCT Command: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.580
+!MESSAGE XSCT command with result: [dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.635
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.677
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.678
+!MESSAGE XSCT Command: [con], Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:45:02.682
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-66: Launching SystemDebugger_blaze_FND_app_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:45:02.684
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '27'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:45:02.684
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '28'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:53:57.788
+!MESSAGE XSCT Command: [disconnect tcfchan#31], Thread: Thread-2563
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-09-09 17:53:57.791
+!MESSAGE XSCT command with result: [disconnect tcfchan#31], Result: [null, ]. Thread: Thread-2563
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:53:57.860
+!MESSAGE Executing command: cmd /C C:\Xilinx\Vitis\2019.2\bin\wbtcv.bat -mode batch -source vitis_webtalk.tcl
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-09-09 17:53:57.929
+!MESSAGE Executed Webtalk command

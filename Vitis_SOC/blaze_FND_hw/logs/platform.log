@@ -1,0 +1,1114 @@
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened new HwDB with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-09-09.16:37:45::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw"
+		}]
+}
+TRACE::2024-09-09.16:37:45::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-09-09.16:37:45::SCWPlatform::Pure FPGA device, no boot application will be created.
+TRACE::2024-09-09.16:37:45::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw"
+		}]
+}
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-09-09.16:37:45::SCWMssOS::No sw design opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::mss does not exists at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::Creating sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::Adding the swdes entry, created swdb C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss with des name C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::Writing mss at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::Completed writing the mss file at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-09-09.16:37:45::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-09.16:37:45::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-09.16:37:45::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-09.16:37:45::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-09.16:37:45::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:45::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:45::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:45::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+TRACE::2024-09-09.16:37:45::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:45::SCWMssOS::Completed writing the mss file at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-09-09.16:37:45::SCWMssOS::Forcing BSP Sources regeneration.
+LOG::2024-09-09.16:37:47::SCWPlatform::Started generating the artifacts platform blaze_FND_hw
+TRACE::2024-09-09.16:37:47::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-09.16:37:47::SCWPlatform::Started generating the artifacts for system configuration blaze_FND_hw
+LOG::2024-09-09.16:37:47::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-09.16:37:47::SCWSystem::Not a boot domain 
+LOG::2024-09-09.16:37:47::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-09.16:37:47::SCWDomain::Generating domain artifcats
+TRACE::2024-09-09.16:37:47::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-09.16:37:47::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss||
+
+KEYINFO::2024-09-09.16:37:47::SCWMssOS::Could not open the swdb for C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+KEYINFO::2024-09-09.16:37:47::SCWMssOS::Could not open the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+ERROR: [Hsi 55-1558] Software Design C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss is not found
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-09.16:37:47::SCWMssOS::No sw design opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::mss exists loading the mss file  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::Opened the sw design from mss  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::Adding the swdes entry C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_2
+TRACE::2024-09-09.16:37:47::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-09.16:37:47::SCWMssOS::Opened the sw design.  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::Completed writing the mss file at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-09-09.16:37:47::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-09.16:37:47::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-09.16:37:47::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-09-09.16:37:47::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-09-09.16:37:47::SCWMssOS::Copying to export directory.
+TRACE::2024-09-09.16:37:47::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-09-09.16:37:47::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-09-09.16:37:47::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-09-09.16:37:47::SCWSystem::Completed Processing the sysconfig blaze_FND_hw
+LOG::2024-09-09.16:37:47::SCWPlatform::Completed generating the artifacts for system configuration blaze_FND_hw
+TRACE::2024-09-09.16:37:47::SCWPlatform::Started preparing the platform 
+TRACE::2024-09-09.16:37:47::SCWSystem::Writing the bif file for system config blaze_FND_hw
+TRACE::2024-09-09.16:37:47::SCWSystem::dir created 
+TRACE::2024-09-09.16:37:47::SCWSystem::Writing the bif 
+TRACE::2024-09-09.16:37:47::SCWPlatform::Started writing the spfm file 
+TRACE::2024-09-09.16:37:47::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-09-09.16:37:47::SCWPlatform::Completed generating the platform
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d32802f5a603f10bc9517e7fcb2406ba",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-09-09.16:37:47::SCWPlatform::updated the xpfm file.
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:47::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:47::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:47::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:47::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:47::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone_domain",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d32802f5a603f10bc9517e7fcb2406ba",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d32802f5a603f10bc9517e7fcb2406ba",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d32802f5a603f10bc9517e7fcb2406ba",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-09-09.16:37:48::SCWPlatform::Clearing the existing platform
+TRACE::2024-09-09.16:37:48::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-09-09.16:37:48::SCWMssOS::Removing the swdes entry for  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWSystem::Clearing the domains completed.
+TRACE::2024-09-09.16:37:48::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform location is C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Removing the HwDB with name C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened new HwDB with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWReader::Active system found as  blaze_FND_hw
+TRACE::2024-09-09.16:37:48::SCWReader::Handling sysconfig blaze_FND_hw
+TRACE::2024-09-09.16:37:48::SCWDomain::checking for install qemu data   : 
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::No sw design opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::mss exists loading the mss file  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::Opened the sw design from mss  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::Adding the swdes entry C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_2
+TRACE::2024-09-09.16:37:48::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-09.16:37:48::SCWMssOS::Opened the sw design.  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-09-09.16:37:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWReader::No isolation master present  
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:48::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:48::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:48::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:48::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:48::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::In reload Mss file.
+TRACE::2024-09-09.16:37:49::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:49::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:49::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:49::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:49::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+KEYINFO::2024-09-09.16:37:49::SCWMssOS::Could not open the swdb for system_2
+KEYINFO::2024-09-09.16:37:49::SCWMssOS::Could not open the sw design at  system_2
+ERROR: [Hsi 55-1558] Software Design system_2 is not found
+
+TRACE::2024-09-09.16:37:49::SCWMssOS::Cleared the swdb table entry
+TRACE::2024-09-09.16:37:49::SCWMssOS::No sw design opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::mss exists loading the mss file  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::Opened the sw design from mss  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::Adding the swdes entry C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_2
+TRACE::2024-09-09.16:37:49::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-09.16:37:49::SCWMssOS::Opened the sw design.  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:37:49::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:37:49::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:37:49::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:49::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:37:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:37:49::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:37:49::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:37:49::SCWMssOS::Removing the swdes entry for  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+LOG::2024-09-09.16:38:43::SCWPlatform::Started generating the artifacts platform blaze_FND_hw
+TRACE::2024-09-09.16:38:43::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-09-09.16:38:43::SCWPlatform::Started generating the artifacts for system configuration blaze_FND_hw
+LOG::2024-09-09.16:38:43::SCWSystem::Checking the domain standalone_domain
+LOG::2024-09-09.16:38:43::SCWSystem::Not a boot domain 
+LOG::2024-09-09.16:38:43::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-09-09.16:38:43::SCWDomain::Generating domain artifcats
+TRACE::2024-09-09.16:38:43::SCWMssOS::Generating standalone artifcats
+TRACE::2024-09-09.16:38:43::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-09-09.16:38:43::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:43::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:43::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:43::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:38:43::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:43::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:38:43::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:43::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:43::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:38:43::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::No sw design opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::mss exists loading the mss file  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::Opened the sw design from mss  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::Adding the swdes entry C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss with des name system_2
+TRACE::2024-09-09.16:38:43::SCWMssOS::updating the scw layer about changes
+TRACE::2024-09-09.16:38:43::SCWMssOS::Opened the sw design.  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::Completed writing the mss file at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp
+TRACE::2024-09-09.16:38:43::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:43::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-09-09.16:38:43::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-09-09.16:38:43::SCWDomain::Building the domain as part of full build :  standalone_domain
+TRACE::2024-09-09.16:38:43::SCWMssOS::doing bsp build ... 
+TRACE::2024-09-09.16:38:43::SCWMssOS::System Command Ran  C: & cd  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp & make 
+TRACE::2024-09-09.16:38:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-09-09.16:38:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-09-09.16:38:43::SCWMssOS::-Wextra"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-09-09.16:38:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-09-09.16:38:43::SCWMssOS::-Wextra"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILE
+TRACE::2024-09-09.16:38:43::SCWMssOS::R_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall 
+TRACE::2024-09-09.16:38:43::SCWMssOS::-Wextra"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::"Running Make include in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-09.16:38:43::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "C
+TRACE::2024-09-09.16:38:43::SCWMssOS::OMPILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections 
+TRACE::2024-09-09.16:38:43::SCWMssOS::-Wall -Wextra"
+
+TRACE::2024-09-09.16:38:44::SCWMssOS::"Running Make include in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-09-09.16:38:44::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COM
+TRACE::2024-09-09.16:38:44::SCWMssOS::PILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -W
+TRACE::2024-09-09.16:38:44::SCWMssOS::all -Wextra"
+
+TRACE::2024-09-09.16:38:44::SCWMssOS::"Running Make libs in microblaze_0/libsrc/bram_v4_3/src"
+
+TRACE::2024-09-09.16:38:44::SCWMssOS::make -C microblaze_0/libsrc/bram_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-09-09.16:38:44::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-09-09.16:38:44::SCWMssOS::xtra"
+
+TRACE::2024-09-09.16:38:44::SCWMssOS::"Compiling bram"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/cpu_v2_10/src"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::make -C microblaze_0/libsrc/cpu_v2_10/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-09-09.16:38:45::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-09-09.16:38:45::SCWMssOS::xtra"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::"Compiling cpu"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::"Running Make libs in microblaze_0/libsrc/gpio_v4_5/src"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::make -C microblaze_0/libsrc/gpio_v4_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPILER_F
+TRACE::2024-09-09.16:38:45::SCWMssOS::LAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall -We
+TRACE::2024-09-09.16:38:45::SCWMssOS::xtra"
+
+TRACE::2024-09-09.16:38:45::SCWMssOS::"Compiling gpio"
+
+TRACE::2024-09-09.16:38:46::SCWMssOS::"Running Make libs in microblaze_0/libsrc/standalone_v7_1/src"
+
+TRACE::2024-09-09.16:38:46::SCWMssOS::make -C microblaze_0/libsrc/standalone_v7_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMP
+TRACE::2024-09-09.16:38:46::SCWMssOS::ILER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wa
+TRACE::2024-09-09.16:38:46::SCWMssOS::ll -Wextra"
+
+TRACE::2024-09-09.16:38:46::SCWMssOS::"Compiling standalone";
+
+TRACE::2024-09-09.16:38:50::SCWMssOS::"Running Make libs in microblaze_0/libsrc/uartlite_v3_3/src"
+
+TRACE::2024-09-09.16:38:50::SCWMssOS::make -C microblaze_0/libsrc/uartlite_v3_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ASSEMBLER=mb-as" "ARCHIVER=mb-ar" "COMPIL
+TRACE::2024-09-09.16:38:50::SCWMssOS::ER_FLAGS=  -O2 -c -mcpu=v11.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g -ffunction-sections -fdata-sections -Wall
+TRACE::2024-09-09.16:38:50::SCWMssOS:: -Wextra"
+
+TRACE::2024-09-09.16:38:50::SCWMssOS::"Compiling uartlite"
+
+TRACE::2024-09-09.16:38:51::SCWMssOS::'Finished building libraries'
+
+TRACE::2024-09-09.16:38:51::SCWMssOS::Copying to export directory.
+TRACE::2024-09-09.16:38:51::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-09-09.16:38:51::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-09-09.16:38:51::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-09-09.16:38:51::SCWSystem::Completed Processing the sysconfig blaze_FND_hw
+LOG::2024-09-09.16:38:51::SCWPlatform::Completed generating the artifacts for system configuration blaze_FND_hw
+TRACE::2024-09-09.16:38:51::SCWPlatform::Started preparing the platform 
+TRACE::2024-09-09.16:38:51::SCWSystem::Writing the bif file for system config blaze_FND_hw
+TRACE::2024-09-09.16:38:51::SCWSystem::dir created 
+TRACE::2024-09-09.16:38:51::SCWSystem::Writing the bif 
+TRACE::2024-09-09.16:38:51::SCWPlatform::Started writing the spfm file 
+TRACE::2024-09-09.16:38:51::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-09-09.16:38:51::SCWPlatform::Completed generating the platform
+TRACE::2024-09-09.16:38:51::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:38:51::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:38:51::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:51::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:38:51::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:38:51::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:51::SCWWriter::formatted JSON is {
+	"platformName":	"blaze_FND_hw",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"blaze_FND_hw",
+	"platHandOff":	"C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/micro_blaze_FND_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/micro_blaze_FND_wrapper.xsa",
+	"deviceType":	"FPGA",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"blaze_FND_hw",
+	"systems":	[{
+			"systemName":	"blaze_FND_hw",
+			"systemDesc":	"blaze_FND_hw",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"blaze_FND_hw",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on microblaze_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"microblaze_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"d32802f5a603f10bc9517e7fcb2406ba",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-09-09.16:38:51::SCWPlatform::updated the xpfm file.
+TRACE::2024-09-09.16:38:51::SCWPlatform::Trying to open the hw design at C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA given C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA absoulate path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform::DSA directory C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw
+TRACE::2024-09-09.16:38:51::SCWPlatform:: Platform Path C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/hw/micro_blaze_FND_wrapper.xsa
+TRACE::2024-09-09.16:38:51::SCWPlatform:: Unique name xilinx:basys3::0.0
+TRACE::2024-09-09.16:38:51::SCWPlatform::Trying to set the existing hwdb with name micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:51::SCWPlatform::Opened existing hwdb micro_blaze_FND_wrapper_1
+TRACE::2024-09-09.16:38:51::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-09-09.16:38:51::SCWMssOS::Checking the sw design at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss
+TRACE::2024-09-09.16:38:51::SCWMssOS::DEBUG:  swdes dump  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss|system||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss|system_1||
+C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss|system_2||
+
+TRACE::2024-09-09.16:38:51::SCWMssOS::Sw design exists and opened at  C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss

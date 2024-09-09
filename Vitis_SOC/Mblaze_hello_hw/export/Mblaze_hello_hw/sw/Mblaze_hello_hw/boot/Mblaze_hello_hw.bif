@@ -1,0 +1,6 @@
+/*Mblaze_hello_hw*/
+the_ROM_image:
+{
+   <bitstream> 
+   <elf> 
+}

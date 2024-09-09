@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sdx:platform sdx:vendor="xilinx.com"
+              sdx:library="sdx"
+              sdx:name="Mblaze_hello_hw"
+              sdx:version="1.0"
+              sdx:schemaVersion="1.0"
+              xmlns:sdx="http://www.xilinx.com/sdx">
+    <sdx:description>
+Mblaze_hello_hw
+    </sdx:description>
+    <sdx:systemConfigurations sdx:defaultConfiguration="Mblaze_hello_hw">
+        <sdx:configuration sdx:name="Mblaze_hello_hw"
+                           sdx:displayName="Mblaze_hello_hw"
+                           sdx:defaultProcessorGroup="standalone_domain"
+                           sdx:runtimes="cpp">
+            <sdx:description>Mblaze_hello_hw</sdx:description>
+            <sdx:bootImages sdx:default="standard">
+                <sdx:image sdx:name="standard"
+                            sdx:bif="Mblaze_hello_hw/boot/Mblaze_hello_hw.bif"
+                            sdx:readme="Mblaze_hello_hw/boot/generic.readme"
+                            />
+            </sdx:bootImages>
+            <sdx:processorGroup sdx:name="standalone_domain"
+                                sdx:displayName="standalone on microblaze_0"
+                                sdx:cpuType="microblaze_0"
+                                sdx:cpuInstance="microblaze_0">
+                <sdx:os sdx:name="standalone"
+                        sdx:displayName="standalone"
+                        sdx:bspLibraryPaths="Mblaze_hello_hw/standalone_domain/bsplib/lib"
+                        sdx:bspIncludePaths="Mblaze_hello_hw/standalone_domain/bspinclude/include"
+                        sdx:bspConfig="Mblaze_hello_hw/standalone_domain/system.mss"
+                />
+            </sdx:processorGroup>
+        </sdx:configuration>
+    </sdx:systemConfigurations>
+</sdx:platform>

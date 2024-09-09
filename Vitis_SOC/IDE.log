@@ -1,0 +1,954 @@
+10:42:32 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\temp_xsdb_launch_script.tcl
+10:42:35 INFO  : XSCT server has started successfully.
+10:42:35 INFO  : plnx-install-location is set to ''
+10:42:36 INFO  : Successfully done setting XSCT server connection channel  
+10:42:36 INFO  : Successfully done query RDI_DATADIR 
+10:42:36 INFO  : Successfully done setting workspace for the tool. 
+10:42:38 INFO  : Registering command handlers for Vitis TCF services
+10:52:32 INFO  : Successfully done sdx_reload_mss "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_hw/microblaze_0/standalone_domain/bsp/system.mss"
+11:25:50 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_hello_app'...
+11:26:22 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:26:22 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+11:26:22 INFO  : 'jtag frequency' command is executed.
+11:26:23 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+11:26:24 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/_ide/bitstream/micro_blaze_hello_wrapper.bit"
+11:26:24 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:26:24 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:24 INFO  : System reset is completed.
+11:26:27 INFO  : 'after 3000' command is executed.
+11:26:27 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:28 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/Debug/Mblaze_hello_app.elf' is downloaded to processor 'microblaze_0'.
+11:26:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/_ide/bitstream/micro_blaze_hello_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/Debug/Mblaze_hello_app.elf
+----------------End of Script----------------
+
+11:26:28 INFO  : Memory regions updated for context MicroBlaze #0
+11:26:28 INFO  : Memory regions updated for context MicroBlaze #0
+11:26:28 INFO  : Context for processor 'microblaze_0' is selected.
+11:26:28 INFO  : 'con' command is executed.
+11:26:28 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:26:28 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_hello_app_system_standalone.tcl'
+11:27:54 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_hello_app'...
+11:28:00 INFO  : Disconnected from the channel tcfchan#2.
+11:28:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:28:00 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+11:28:00 INFO  : 'jtag frequency' command is executed.
+11:28:00 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+11:28:01 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/_ide/bitstream/micro_blaze_hello_wrapper.bit"
+11:28:02 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:28:02 INFO  : Context for processor 'microblaze_0' is selected.
+11:28:02 INFO  : System reset is completed.
+11:28:05 INFO  : 'after 3000' command is executed.
+11:28:05 INFO  : Context for processor 'microblaze_0' is selected.
+11:28:05 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/Debug/Mblaze_hello_app.elf' is downloaded to processor 'microblaze_0'.
+11:28:05 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/_ide/bitstream/micro_blaze_hello_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_hello_app/Debug/Mblaze_hello_app.elf
+----------------End of Script----------------
+
+11:28:05 INFO  : Memory regions updated for context MicroBlaze #0
+11:28:05 INFO  : Memory regions updated for context MicroBlaze #0
+11:28:05 INFO  : Context for processor 'microblaze_0' is selected.
+11:28:05 INFO  : 'con' command is executed.
+11:28:05 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:28:05 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_hello_app_system_standalone.tcl'
+11:57:17 INFO  : Successfully done sdx_reload_mss "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_hw/microblaze_0/standalone_domain/bsp/system.mss"
+11:59:26 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_btn_app'...
+11:59:36 INFO  : Disconnected from the channel tcfchan#3.
+11:59:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:59:37 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+11:59:37 INFO  : 'jtag frequency' command is executed.
+11:59:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+11:59:39 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit"
+11:59:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+11:59:39 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:39 INFO  : System reset is completed.
+11:59:42 INFO  : 'after 3000' command is executed.
+11:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:42 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf' is downloaded to processor 'microblaze_0'.
+11:59:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf
+----------------End of Script----------------
+
+11:59:42 INFO  : Memory regions updated for context MicroBlaze #0
+11:59:42 INFO  : Memory regions updated for context MicroBlaze #0
+11:59:42 INFO  : Context for processor 'microblaze_0' is selected.
+11:59:42 INFO  : 'con' command is executed.
+11:59:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+11:59:42 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_btn_app_system_standalone.tcl'
+12:16:09 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_btn_app'...
+12:16:18 INFO  : Disconnected from the channel tcfchan#5.
+12:16:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+12:16:18 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+12:16:18 INFO  : 'jtag frequency' command is executed.
+12:16:19 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+12:16:20 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit"
+12:16:20 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+12:16:20 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:20 INFO  : System reset is completed.
+12:16:23 INFO  : 'after 3000' command is executed.
+12:16:23 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:23 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf' is downloaded to processor 'microblaze_0'.
+12:16:23 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf
+----------------End of Script----------------
+
+12:16:23 INFO  : Memory regions updated for context MicroBlaze #0
+12:16:23 INFO  : Memory regions updated for context MicroBlaze #0
+12:16:23 INFO  : Context for processor 'microblaze_0' is selected.
+12:16:23 INFO  : 'con' command is executed.
+12:16:23 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+12:16:23 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_btn_app_system_standalone.tcl'
+14:23:12 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_btn_app'...
+14:23:21 INFO  : Disconnected from the channel tcfchan#6.
+14:23:21 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+14:23:21 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+14:23:21 INFO  : 'jtag frequency' command is executed.
+14:23:21 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+14:23:23 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit"
+14:23:23 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+14:23:23 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:23 INFO  : System reset is completed.
+14:23:26 INFO  : 'after 3000' command is executed.
+14:23:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:26 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf' is downloaded to processor 'microblaze_0'.
+14:23:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf
+----------------End of Script----------------
+
+14:23:26 INFO  : Memory regions updated for context MicroBlaze #0
+14:23:26 INFO  : Memory regions updated for context MicroBlaze #0
+14:23:26 INFO  : Context for processor 'microblaze_0' is selected.
+14:23:27 INFO  : 'con' command is executed.
+14:23:27 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+14:23:27 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_btn_app_system_standalone.tcl'
+15:14:02 INFO  : Successfully done sdx_reload_mss "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_hw/microblaze_0/standalone_domain/bsp/system.mss"
+15:15:22 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+15:15:35 INFO  : Disconnected from the channel tcfchan#7.
+15:15:35 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:15:36 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+15:15:36 INFO  : 'jtag frequency' command is executed.
+15:15:36 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+15:15:37 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit"
+15:15:37 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:15:37 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:37 INFO  : System reset is completed.
+15:15:40 INFO  : 'after 3000' command is executed.
+15:15:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:40 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+15:15:40 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf
+----------------End of Script----------------
+
+15:15:40 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:40 INFO  : Memory regions updated for context MicroBlaze #0
+15:15:40 INFO  : Context for processor 'microblaze_0' is selected.
+15:15:40 INFO  : 'con' command is executed.
+15:15:40 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:15:40 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_led_switch_app_system_standalone.tcl'
+15:48:11 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+15:48:29 INFO  : Disconnected from the channel tcfchan#9.
+15:48:29 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:48:29 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+15:48:29 INFO  : 'jtag frequency' command is executed.
+15:48:29 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+15:48:30 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit"
+15:48:30 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:48:30 INFO  : Context for processor 'microblaze_0' is selected.
+15:48:30 INFO  : System reset is completed.
+15:48:33 INFO  : 'after 3000' command is executed.
+15:48:33 INFO  : Context for processor 'microblaze_0' is selected.
+15:48:33 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+15:48:33 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf
+----------------End of Script----------------
+
+15:48:34 INFO  : Memory regions updated for context MicroBlaze #0
+15:48:34 INFO  : Memory regions updated for context MicroBlaze #0
+15:48:34 INFO  : Context for processor 'microblaze_0' is selected.
+15:48:34 INFO  : 'con' command is executed.
+15:48:34 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:48:34 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_led_switch_app_system_standalone.tcl'
+15:50:16 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_btn_app'...
+15:50:22 INFO  : Disconnected from the channel tcfchan#10.
+15:50:23 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:50:23 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+15:50:23 INFO  : 'jtag frequency' command is executed.
+15:50:24 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+15:50:25 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit"
+15:50:25 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:50:25 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:25 INFO  : System reset is completed.
+15:50:28 INFO  : 'after 3000' command is executed.
+15:50:28 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:28 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf' is downloaded to processor 'microblaze_0'.
+15:50:28 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/_ide/bitstream/micro_blaze_button_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_btn_app/Debug/Mblaze_btn_app.elf
+----------------End of Script----------------
+
+15:50:28 INFO  : Memory regions updated for context MicroBlaze #0
+15:50:28 INFO  : Memory regions updated for context MicroBlaze #0
+15:50:29 INFO  : Context for processor 'microblaze_0' is selected.
+15:50:29 INFO  : 'con' command is executed.
+15:50:29 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:50:29 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_btn_app_system_standalone.tcl'
+15:51:15 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+15:51:29 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+15:51:35 INFO  : Disconnected from the channel tcfchan#11.
+15:51:36 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+15:51:36 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+15:51:36 INFO  : 'jtag frequency' command is executed.
+15:51:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+15:51:38 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit"
+15:51:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+15:51:38 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:38 INFO  : System reset is completed.
+15:51:41 INFO  : 'after 3000' command is executed.
+15:51:41 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:41 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+15:51:41 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf
+----------------End of Script----------------
+
+15:51:41 INFO  : Memory regions updated for context MicroBlaze #0
+15:51:41 INFO  : Memory regions updated for context MicroBlaze #0
+15:51:42 INFO  : Context for processor 'microblaze_0' is selected.
+15:51:42 INFO  : 'con' command is executed.
+15:51:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+15:51:42 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_led_switch_app_system_standalone.tcl'
+16:04:21 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+16:04:27 INFO  : Disconnected from the channel tcfchan#12.
+16:04:27 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:04:28 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+16:04:28 INFO  : 'jtag frequency' command is executed.
+16:04:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+16:04:29 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit"
+16:04:29 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:04:29 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:29 INFO  : System reset is completed.
+16:04:32 INFO  : 'after 3000' command is executed.
+16:04:32 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:32 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf' is downloaded to processor 'microblaze_0'.
+16:04:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/_ide/bitstream/micro_blaze_led_switch_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/Mblaze_led_switch_app/Debug/Mblaze_led_switch_app.elf
+----------------End of Script----------------
+
+16:04:32 INFO  : Memory regions updated for context MicroBlaze #0
+16:04:32 INFO  : Memory regions updated for context MicroBlaze #0
+16:04:33 INFO  : Context for processor 'microblaze_0' is selected.
+16:04:33 INFO  : 'con' command is executed.
+16:04:33 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:04:33 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_mblaze_led_switch_app_system_standalone.tcl'
+16:37:49 INFO  : Successfully done sdx_reload_mss "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/microblaze_0/standalone_domain/bsp/system.mss"
+16:38:51 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+16:39:04 INFO  : Disconnected from the channel tcfchan#13.
+16:39:05 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:39:06 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+16:39:06 INFO  : 'jtag frequency' command is executed.
+16:39:06 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+16:39:07 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+16:39:07 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:39:07 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:07 INFO  : System reset is completed.
+16:39:10 INFO  : 'after 3000' command is executed.
+16:39:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:10 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+16:39:10 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+16:39:10 INFO  : Memory regions updated for context MicroBlaze #0
+16:39:10 INFO  : Memory regions updated for context MicroBlaze #0
+16:39:10 INFO  : Context for processor 'microblaze_0' is selected.
+16:39:10 INFO  : 'con' command is executed.
+16:39:10 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+16:39:10 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:06:01 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:06:08 INFO  : Disconnected from the channel tcfchan#15.
+17:06:24 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:06:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:37 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:06:37 INFO  : 'jtag frequency' command is executed.
+17:06:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:06:39 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:06:39 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:06:39 INFO  : Context for processor 'microblaze_0' is selected.
+17:06:39 INFO  : System reset is completed.
+17:06:42 INFO  : 'after 3000' command is executed.
+17:06:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+----------------End of Script----------------
+
+17:06:42 INFO  : Memory regions updated for context MicroBlaze #0
+17:06:42 INFO  : Memory regions updated for context MicroBlaze #0
+17:06:42 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:06:45 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:06:56 INFO  : Disconnected from the channel tcfchan#16.
+17:06:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:57 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:06:57 INFO  : 'jtag frequency' command is executed.
+17:06:57 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:06:58 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:06:58 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:06:58 INFO  : Context for processor 'microblaze_0' is selected.
+17:06:58 INFO  : System reset is completed.
+17:07:01 INFO  : 'after 3000' command is executed.
+17:07:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:01 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:07:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:07:01 INFO  : Memory regions updated for context MicroBlaze #0
+17:07:01 INFO  : Memory regions updated for context MicroBlaze #0
+17:07:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:07:01 INFO  : 'con' command is executed.
+17:07:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:07:01 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:08:20 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_btn_app'...
+17:08:22 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_hello_app'...
+17:08:24 INFO  : Checking for BSP changes to sync application flags for project 'Mblaze_led_switch_app'...
+17:08:26 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:11:58 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:12:07 INFO  : Disconnected from the channel tcfchan#17.
+17:12:07 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:12:07 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:12:07 INFO  : 'jtag frequency' command is executed.
+17:12:07 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:12:09 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:12:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:12:09 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:09 INFO  : System reset is completed.
+17:12:12 INFO  : 'after 3000' command is executed.
+17:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:12 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:12:12 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:12:12 INFO  : Memory regions updated for context MicroBlaze #0
+17:12:12 INFO  : Memory regions updated for context MicroBlaze #0
+17:12:12 INFO  : Context for processor 'microblaze_0' is selected.
+17:12:12 INFO  : 'con' command is executed.
+17:12:12 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:12:12 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:13:54 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:14:01 INFO  : Disconnected from the channel tcfchan#18.
+17:14:01 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:01 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:14:01 INFO  : 'jtag frequency' command is executed.
+17:14:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:14:03 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:14:03 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:14:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:03 INFO  : System reset is completed.
+17:14:06 INFO  : 'after 3000' command is executed.
+17:14:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:06 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:14:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:14:06 INFO  : Memory regions updated for context MicroBlaze #0
+17:14:06 INFO  : Memory regions updated for context MicroBlaze #0
+17:14:06 INFO  : Context for processor 'microblaze_0' is selected.
+17:14:06 INFO  : 'con' command is executed.
+17:14:06 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:14:06 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:14:49 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:14:58 INFO  : Disconnected from the channel tcfchan#19.
+17:14:58 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:14:58 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:14:58 INFO  : 'jtag frequency' command is executed.
+17:14:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:14:59 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:14:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:14:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:00 INFO  : System reset is completed.
+17:15:03 INFO  : 'after 3000' command is executed.
+17:15:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:03 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:15:03 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:15:03 INFO  : Memory regions updated for context MicroBlaze #0
+17:15:03 INFO  : Memory regions updated for context MicroBlaze #0
+17:15:03 INFO  : Context for processor 'microblaze_0' is selected.
+17:15:03 INFO  : 'con' command is executed.
+17:15:03 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:15:03 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:17:19 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:17:26 INFO  : Disconnected from the channel tcfchan#20.
+17:17:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:17:26 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:17:26 INFO  : 'jtag frequency' command is executed.
+17:17:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:17:28 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:17:28 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:17:28 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:28 INFO  : System reset is completed.
+17:17:31 INFO  : 'after 3000' command is executed.
+17:17:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:31 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:17:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:17:31 INFO  : Memory regions updated for context MicroBlaze #0
+17:17:31 INFO  : Memory regions updated for context MicroBlaze #0
+17:17:31 INFO  : Context for processor 'microblaze_0' is selected.
+17:17:31 INFO  : 'con' command is executed.
+17:17:31 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:17:31 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:18:29 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:18:39 INFO  : Disconnected from the channel tcfchan#21.
+17:18:39 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:18:39 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:18:39 INFO  : 'jtag frequency' command is executed.
+17:18:39 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:18:41 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:18:41 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:18:41 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:41 INFO  : System reset is completed.
+17:18:44 INFO  : 'after 3000' command is executed.
+17:18:44 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:44 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:18:44 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:18:44 INFO  : Memory regions updated for context MicroBlaze #0
+17:18:44 INFO  : Memory regions updated for context MicroBlaze #0
+17:18:44 INFO  : Context for processor 'microblaze_0' is selected.
+17:18:44 INFO  : 'con' command is executed.
+17:18:44 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:18:44 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:19:33 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:19:40 INFO  : Disconnected from the channel tcfchan#22.
+17:19:40 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:19:41 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:19:41 INFO  : 'jtag frequency' command is executed.
+17:19:41 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:19:42 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:19:42 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:19:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:42 INFO  : System reset is completed.
+17:19:45 INFO  : 'after 3000' command is executed.
+17:19:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:45 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:19:45 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:19:45 INFO  : Memory regions updated for context MicroBlaze #0
+17:19:45 INFO  : Memory regions updated for context MicroBlaze #0
+17:19:45 INFO  : Context for processor 'microblaze_0' is selected.
+17:19:45 INFO  : 'con' command is executed.
+17:19:45 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:19:45 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:26:33 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:26:41 INFO  : Disconnected from the channel tcfchan#23.
+17:26:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:26:41 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:26:41 INFO  : 'jtag frequency' command is executed.
+17:26:42 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:26:43 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:26:43 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:26:43 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:43 INFO  : System reset is completed.
+17:26:46 INFO  : 'after 3000' command is executed.
+17:26:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:46 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:26:46 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:26:46 INFO  : Memory regions updated for context MicroBlaze #0
+17:26:46 INFO  : Memory regions updated for context MicroBlaze #0
+17:26:46 INFO  : Context for processor 'microblaze_0' is selected.
+17:26:46 INFO  : 'con' command is executed.
+17:26:46 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:26:46 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:27:01 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:27:08 INFO  : Disconnected from the channel tcfchan#24.
+17:27:08 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:27:08 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:27:08 INFO  : 'jtag frequency' command is executed.
+17:27:08 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:27:09 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:27:09 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:27:10 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:10 INFO  : System reset is completed.
+17:27:13 INFO  : 'after 3000' command is executed.
+17:27:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:13 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:27:13 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:27:13 INFO  : Memory regions updated for context MicroBlaze #0
+17:27:13 INFO  : Memory regions updated for context MicroBlaze #0
+17:27:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:27:13 INFO  : 'con' command is executed.
+17:27:13 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:27:13 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:28:42 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:28:49 INFO  : Disconnected from the channel tcfchan#25.
+17:28:49 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:28:50 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:28:50 INFO  : 'jtag frequency' command is executed.
+17:28:50 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:28:51 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:28:51 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:28:51 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:51 INFO  : System reset is completed.
+17:28:54 INFO  : 'after 3000' command is executed.
+17:28:54 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:54 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:28:54 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:28:54 INFO  : Memory regions updated for context MicroBlaze #0
+17:28:54 INFO  : Memory regions updated for context MicroBlaze #0
+17:28:54 INFO  : Context for processor 'microblaze_0' is selected.
+17:28:54 INFO  : 'con' command is executed.
+17:28:54 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:28:54 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:40:37 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:40:52 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:41:05 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:41:12 INFO  : Disconnected from the channel tcfchan#26.
+17:41:12 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:41:12 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:41:12 INFO  : 'jtag frequency' command is executed.
+17:41:12 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:41:13 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:41:13 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:41:13 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:13 INFO  : System reset is completed.
+17:41:16 INFO  : 'after 3000' command is executed.
+17:41:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:16 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:41:16 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:41:16 INFO  : Memory regions updated for context MicroBlaze #0
+17:41:16 INFO  : Memory regions updated for context MicroBlaze #0
+17:41:16 INFO  : Context for processor 'microblaze_0' is selected.
+17:41:16 INFO  : 'con' command is executed.
+17:41:16 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:41:16 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:42:46 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:42:56 INFO  : Disconnected from the channel tcfchan#27.
+17:42:56 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:42:56 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:42:56 INFO  : 'jtag frequency' command is executed.
+17:42:56 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:42:57 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:42:57 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:42:57 INFO  : Context for processor 'microblaze_0' is selected.
+17:42:57 INFO  : System reset is completed.
+17:43:00 INFO  : 'after 3000' command is executed.
+17:43:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:01 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:43:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:43:01 INFO  : Memory regions updated for context MicroBlaze #0
+17:43:01 INFO  : Memory regions updated for context MicroBlaze #0
+17:43:01 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:01 INFO  : 'con' command is executed.
+17:43:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:43:01 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:43:38 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:43:45 INFO  : Disconnected from the channel tcfchan#28.
+17:43:46 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:43:46 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:43:46 INFO  : 'jtag frequency' command is executed.
+17:43:46 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:43:47 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:43:47 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:43:47 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:47 INFO  : System reset is completed.
+17:43:50 INFO  : 'after 3000' command is executed.
+17:43:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:50 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:43:50 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:43:50 INFO  : Memory regions updated for context MicroBlaze #0
+17:43:50 INFO  : Memory regions updated for context MicroBlaze #0
+17:43:50 INFO  : Context for processor 'microblaze_0' is selected.
+17:43:50 INFO  : 'con' command is executed.
+17:43:50 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:43:50 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:44:16 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:44:30 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:44:37 INFO  : Disconnected from the channel tcfchan#29.
+17:44:37 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:44:37 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:44:37 INFO  : 'jtag frequency' command is executed.
+17:44:37 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:44:38 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:44:38 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:44:38 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:38 INFO  : System reset is completed.
+17:44:41 INFO  : 'after 3000' command is executed.
+17:44:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:42 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:44:42 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:44:42 INFO  : Memory regions updated for context MicroBlaze #0
+17:44:42 INFO  : Memory regions updated for context MicroBlaze #0
+17:44:42 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:42 INFO  : 'con' command is executed.
+17:44:42 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:44:42 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:44:49 INFO  : Checking for BSP changes to sync application flags for project 'blaze_FND_app'...
+17:44:57 INFO  : Disconnected from the channel tcfchan#30.
+17:44:57 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:44:58 INFO  : Jtag cable 'Digilent Basys3 210183BB7F95A' is selected.
+17:44:58 INFO  : 'jtag frequency' command is executed.
+17:44:58 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0' command is executed.
+17:44:59 INFO  : FPGA configured successfully with bitstream "C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit"
+17:44:59 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+17:44:59 INFO  : Context for processor 'microblaze_0' is selected.
+17:44:59 INFO  : System reset is completed.
+17:45:02 INFO  : 'after 3000' command is executed.
+17:45:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:45:02 INFO  : The application 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf' is downloaded to processor 'microblaze_0'.
+17:45:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183BB7F95A" && level==0} -index 0
+fpga -file C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/_ide/bitstream/micro_blaze_FND_wrapper.bit
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app/Debug/blaze_FND_app.elf
+----------------End of Script----------------
+
+17:45:02 INFO  : Memory regions updated for context MicroBlaze #0
+17:45:02 INFO  : Memory regions updated for context MicroBlaze #0
+17:45:02 INFO  : Context for processor 'microblaze_0' is selected.
+17:45:02 INFO  : 'con' command is executed.
+17:45:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+con
+----------------End of Script----------------
+
+17:45:02 INFO  : Launch script is exported to file 'C:\Users\minkyu\Documents\GitHub\SOC_Design_VerilogPractice\Vitis_SOC\.sdk\launch_scripts\single_application_debug\systemdebugger_blaze_fnd_app_system_standalone.tcl'
+17:53:57 INFO  : Disconnected from the channel tcfchan#31.

@@ -1,0 +1,14 @@
+timestamp=[2024-09-09 10:42:30], mode=WORKBENCH_START, duration=0:00:08.010, duration_ms=8010, data={}
+timestamp=[2024-09-09 10:42:31], mode=WORKBENCH_UI_INIT, duration=0:00:01.136, duration_ms=1136, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2024-09-09 10:52:31], mode=PLATFORM_CREATION, duration=0:00:08.587, duration_ms=8587, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-09 10:53:36], mode=PLATFORM_GENERATION, duration=0:00:14.099, duration_ms=14099, data={name=Mblaze_hello_hw}
+timestamp=[2024-09-09 11:00:30], mode=APP_CREATION, duration=0:00:02.131, duration_ms=2131, data={name=Mblaze_hello_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=Mblaze_hello_hw, application_type=application}
+timestamp=[2024-09-09 11:57:16], mode=PLATFORM_CREATION, duration=0:00:05.736, duration_ms=5736, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-09 11:57:51], mode=APP_CREATION, duration=0:00:01.267, duration_ms=1267, data={name=Mblaze_btn_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=Mblaze_btn_hw, application_type=application}
+timestamp=[2024-09-09 11:59:24], mode=PLATFORM_GENERATION, duration=0:00:10.884, duration_ms=10884, data={name=Mblaze_btn_hw}
+timestamp=[2024-09-09 15:14:00], mode=PLATFORM_CREATION, duration=0:00:02.970, duration_ms=2970, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-09 15:14:47], mode=APP_CREATION, duration=0:00:01.216, duration_ms=1216, data={name=Mblaze_led_switch_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=Mblaze_led_switch_hw, application_type=application}
+timestamp=[2024-09-09 15:15:22], mode=PLATFORM_GENERATION, duration=0:00:11.125, duration_ms=11125, data={name=Mblaze_led_switch_hw}
+timestamp=[2024-09-09 16:37:48], mode=PLATFORM_CREATION, duration=0:00:03.198, duration_ms=3198, data={platform_source=dsa, os=standalone, processor=microblaze, platform=null}
+timestamp=[2024-09-09 16:38:11], mode=APP_CREATION, duration=0:00:01.339, duration_ms=1339, data={name=blaze_FND_app, project_type=sdk, os=standalone, processor=microblaze_0, runtime=C/C++, platform=blaze_FND_hw, application_type=application}
+timestamp=[2024-09-09 16:38:51], mode=PLATFORM_GENERATION, duration=0:00:11.095, duration_ms=11095, data={name=blaze_FND_hw}

@@ -1,0 +1,413 @@
+#-----------------------------------------------------------
+# Vivado v2019.2 (64-bit)
+# SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
+# IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
+# Start of session at: Mon Sep  9 16:32:10 2024
+# Process ID: 11364
+# Current directory: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1
+# Command line: vivado.exe -log micro_blaze_FND_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source micro_blaze_FND_wrapper.tcl
+# Log file: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/micro_blaze_FND_wrapper.vds
+# Journal file: C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source micro_blaze_FND_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
+Command: synth_design -top micro_blaze_FND_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11144 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1183.254 ; gain = 230.359
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_wrapper' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/hdl/micro_blaze_FND_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:409]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_axi_gpio_0_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_axi_gpio_0_0' (1#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_gpio_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_gpio_FND' of module 'micro_blaze_FND_axi_gpio_0_0' has 22 connections declared, but only 21 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:544]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_axi_gpio_1_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_axi_gpio_1_0' (2#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_gpio_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_axi_uartlite_0_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_axi_uartlite_0_0' (3#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_axi_uartlite_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'micro_blaze_FND_axi_uartlite_0_0' has 22 connections declared, but only 21 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:587]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_clk_wiz_0_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_clk_wiz_0_0' (4#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_clk_wiz_0_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_mdm_1_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_mdm_1_0' (5#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_microblaze_0_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_microblaze_0_0' (6#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_microblaze_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'microblaze_0' of module 'micro_blaze_FND_microblaze_0_0' has 52 connections declared, but only 51 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:627]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_microblaze_0_axi_periph_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:793]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_1L53ZJH' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_1L53ZJH' (7#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:12]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_SZMGF7' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_SZMGF7' (8#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:144]
+INFO: [Synth 8-6157] synthesizing module 'm02_couplers_imp_PYUU40' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:276]
+INFO: [Synth 8-6155] done synthesizing module 'm02_couplers_imp_PYUU40' (9#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:276]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1TV0BZP' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1605]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1TV0BZP' (10#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1605]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_xbar_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_xbar_0' (11#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_xbar_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'xbar' of module 'micro_blaze_FND_xbar_0' has 40 connections declared, but only 38 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1330]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_microblaze_0_axi_periph_0' (12#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:793]
+INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_17TX5YU' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1371]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_dlmb_bram_if_cntlr_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_dlmb_bram_if_cntlr_0' (13#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_dlmb_v10_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_dlmb_v10_0' (14#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_dlmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'micro_blaze_FND_dlmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1517]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_ilmb_bram_if_cntlr_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_ilmb_bram_if_cntlr_0' (15#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_ilmb_v10_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_ilmb_v10_0' (16#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_ilmb_v10_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'micro_blaze_FND_ilmb_v10_0' has 25 connections declared, but only 24 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1563]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_lmb_bram_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_lmb_bram_0' (17#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_lmb_bram_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'micro_blaze_FND_lmb_bram_0' has 16 connections declared, but only 14 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1588]
+INFO: [Synth 8-6155] done synthesizing module 'microblaze_0_local_memory_imp_17TX5YU' (18#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:1371]
+INFO: [Synth 8-6157] synthesizing module 'micro_blaze_FND_rst_clk_wiz_0_100M_0' [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_rst_clk_wiz_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_rst_clk_wiz_0_100M_0' (19#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/.Xil/Vivado-11364-DESKTOP-VQQPT2C/realtime/micro_blaze_FND_rst_clk_wiz_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_clk_wiz_0_100M' of module 'micro_blaze_FND_rst_clk_wiz_0_100M_0' has 10 connections declared, but only 8 given [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:782]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND' (20#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/synth/micro_blaze_FND.v:409]
+INFO: [Synth 8-6155] done synthesizing module 'micro_blaze_FND_wrapper' (21#1) [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/hdl/micro_blaze_FND_wrapper.v:12]
+WARNING: [Synth 8-3331] design s00_couplers_imp_1TV0BZP has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1TV0BZP has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design s00_couplers_imp_1TV0BZP has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design s00_couplers_imp_1TV0BZP has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_PYUU40 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_PYUU40 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m02_couplers_imp_PYUU40 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m02_couplers_imp_PYUU40 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_SZMGF7 has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_SZMGF7 has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m01_couplers_imp_SZMGF7 has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m01_couplers_imp_SZMGF7 has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1L53ZJH has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1L53ZJH has unconnected port M_ARESETN
+WARNING: [Synth 8-3331] design m00_couplers_imp_1L53ZJH has unconnected port S_ACLK
+WARNING: [Synth 8-3331] design m00_couplers_imp_1L53ZJH has unconnected port S_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1260.258 ; gain = 307.363
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1260.258 ; gain = 307.363
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1260.258 ; gain = 307.363
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1260.258 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/clk_wiz_0'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/clk_wiz_0'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_microblaze_0_0/micro_blaze_FND_microblaze_0_0/micro_blaze_led_switch_microblaze_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_microblaze_0_0/micro_blaze_FND_microblaze_0_0/micro_blaze_led_switch_microblaze_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_dlmb_v10_0/micro_blaze_FND_dlmb_v10_0/micro_blaze_hello_dlmb_v10_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/dlmb_v10'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_dlmb_v10_0/micro_blaze_FND_dlmb_v10_0/micro_blaze_hello_dlmb_v10_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/dlmb_v10'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_ilmb_v10_0/micro_blaze_FND_ilmb_v10_0/micro_blaze_hello_dlmb_v10_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/ilmb_v10'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_ilmb_v10_0/micro_blaze_FND_ilmb_v10_0/micro_blaze_hello_dlmb_v10_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/ilmb_v10'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_dlmb_bram_if_cntlr_0/micro_blaze_FND_dlmb_bram_if_cntlr_0/micro_blaze_button_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_dlmb_bram_if_cntlr_0/micro_blaze_FND_dlmb_bram_if_cntlr_0/micro_blaze_button_dlmb_bram_if_cntlr_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/dlmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_ilmb_bram_if_cntlr_0/micro_blaze_FND_ilmb_bram_if_cntlr_0/micro_blaze_hello_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_ilmb_bram_if_cntlr_0/micro_blaze_FND_ilmb_bram_if_cntlr_0/micro_blaze_hello_ilmb_bram_if_cntlr_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/ilmb_bram_if_cntlr'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_lmb_bram_0/micro_blaze_FND_lmb_bram_0/micro_blaze_FND_lmb_bram_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/lmb_bram'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_lmb_bram_0/micro_blaze_FND_lmb_bram_0/micro_blaze_FND_lmb_bram_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_local_memory/lmb_bram'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_mdm_1_0/micro_blaze_FND_mdm_1_0/micro_blaze_hello_mdm_1_0_in_context.xdc] for cell 'micro_blaze_FND_i/mdm_1'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_mdm_1_0/micro_blaze_FND_mdm_1_0/micro_blaze_hello_mdm_1_0_in_context.xdc] for cell 'micro_blaze_FND_i/mdm_1'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_rst_clk_wiz_0_100M_0/micro_blaze_FND_rst_clk_wiz_0_100M_0/micro_blaze_hello_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'micro_blaze_FND_i/rst_clk_wiz_0_100M'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_rst_clk_wiz_0_100M_0/micro_blaze_FND_rst_clk_wiz_0_100M_0/micro_blaze_hello_rst_clk_wiz_0_100M_0_in_context.xdc] for cell 'micro_blaze_FND_i/rst_clk_wiz_0_100M'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_uartlite_0_0/micro_blaze_FND_axi_uartlite_0_0/micro_blaze_hello_axi_uartlite_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_uartlite_0_0/micro_blaze_FND_axi_uartlite_0_0/micro_blaze_hello_axi_uartlite_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_uartlite_0'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_xbar_0/micro_blaze_FND_xbar_0/micro_blaze_FND_xbar_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_axi_periph/xbar'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_xbar_0/micro_blaze_FND_xbar_0/micro_blaze_FND_xbar_0_in_context.xdc] for cell 'micro_blaze_FND_i/microblaze_0_axi_periph/xbar'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_gpio_0_0/micro_blaze_FND_axi_gpio_0_0/micro_blaze_FND_axi_gpio_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_gpio_FND'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_gpio_0_0/micro_blaze_FND_axi_gpio_0_0/micro_blaze_FND_axi_gpio_0_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_gpio_FND'
+Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_gpio_1_0/micro_blaze_FND_axi_gpio_1_0/micro_blaze_FND_axi_gpio_1_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_gpio_Switch'
+Finished Parsing XDC File [c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_axi_gpio_1_0/micro_blaze_FND_axi_gpio_1_0/micro_blaze_FND_axi_gpio_1_0_in_context.xdc] for cell 'micro_blaze_FND_i/axi_gpio_Switch'
+Parsing XDC File [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1318.988 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1318.988 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'micro_blaze_FND_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clock. (constraint file  c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0_in_context.xdc, line 3).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clock. (constraint file  c:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.srcs/sources_1/bd/micro_blaze_FND/ip/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0/micro_blaze_FND_clk_wiz_0_0_in_context.xdc, line 4).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/clk_wiz_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_local_memory/dlmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_local_memory/ilmb_v10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_local_memory/dlmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_local_memory/ilmb_bram_if_cntlr. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_local_memory/lmb_bram. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/mdm_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/rst_clk_wiz_0_100M. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/axi_uartlite_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/microblaze_0_axi_periph. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/axi_gpio_FND. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for micro_blaze_FND_i/axi_gpio_Switch. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M02_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port M02_ARESETN
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design micro_blaze_FND_microblaze_0_axi_periph_0 has unconnected port S00_ARESETN
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1328.938 ; gain = 376.043
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1334.422 ; gain = 381.527
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------------+----------+
+|      |BlackBox name                        |Instances |
++------+-------------------------------------+----------+
+|1     |micro_blaze_FND_xbar_0               |         1|
+|2     |micro_blaze_FND_axi_gpio_0_0         |         1|
+|3     |micro_blaze_FND_axi_gpio_1_0         |         1|
+|4     |micro_blaze_FND_axi_uartlite_0_0     |         1|
+|5     |micro_blaze_FND_clk_wiz_0_0          |         1|
+|6     |micro_blaze_FND_mdm_1_0              |         1|
+|7     |micro_blaze_FND_microblaze_0_0       |         1|
+|8     |micro_blaze_FND_rst_clk_wiz_0_100M_0 |         1|
+|9     |micro_blaze_FND_dlmb_bram_if_cntlr_0 |         1|
+|10    |micro_blaze_FND_dlmb_v10_0           |         1|
+|11    |micro_blaze_FND_ilmb_bram_if_cntlr_0 |         1|
+|12    |micro_blaze_FND_ilmb_v10_0           |         1|
+|13    |micro_blaze_FND_lmb_bram_0           |         1|
++------+-------------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------------+------+
+|      |Cell                                 |Count |
++------+-------------------------------------+------+
+|1     |micro_blaze_FND_axi_gpio_0_0         |     1|
+|2     |micro_blaze_FND_axi_gpio_1_0         |     1|
+|3     |micro_blaze_FND_axi_uartlite_0_0     |     1|
+|4     |micro_blaze_FND_clk_wiz_0_0          |     1|
+|5     |micro_blaze_FND_dlmb_bram_if_cntlr_0 |     1|
+|6     |micro_blaze_FND_dlmb_v10_0           |     1|
+|7     |micro_blaze_FND_ilmb_bram_if_cntlr_0 |     1|
+|8     |micro_blaze_FND_ilmb_v10_0           |     1|
+|9     |micro_blaze_FND_lmb_bram_0           |     1|
+|10    |micro_blaze_FND_mdm_1_0              |     1|
+|11    |micro_blaze_FND_microblaze_0_0       |     1|
+|12    |micro_blaze_FND_rst_clk_wiz_0_100M_0 |     1|
+|13    |micro_blaze_FND_xbar_0               |     1|
+|14    |IBUF                                 |    18|
+|15    |OBUF                                 |    13|
++------+-------------------------------------+------+
+
+Report Instance Areas: 
++------+------------------------------+------------------------------------------+------+
+|      |Instance                      |Module                                    |Cells |
++------+------------------------------+------------------------------------------+------+
+|1     |top                           |                                          |  1281|
+|2     |  micro_blaze_FND_i           |micro_blaze_FND                           |  1250|
+|3     |    microblaze_0_axi_periph   |micro_blaze_FND_microblaze_0_axi_periph_0 |   374|
+|4     |    microblaze_0_local_memory |microblaze_0_local_memory_imp_17TX5YU     |   496|
++------+------------------------------+------------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1348.125 ; gain = 326.551
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1348.125 ; gain = 395.230
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1361.207 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1364.137 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+54 Infos, 41 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:43 . Memory (MB): peak = 1364.137 ; gain = 687.711
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1364.137 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/SOC_Practice_soc/SOC_Practice_soc.runs/synth_1/micro_blaze_FND_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file micro_blaze_FND_wrapper_utilization_synth.rpt -pb micro_blaze_FND_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Sep  9 16:33:15 2024...

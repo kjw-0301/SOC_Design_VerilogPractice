@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="blaze_FND_app" location="C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_app" platform="C:/Users/minkyu/Documents/GitHub/SOC_Design_VerilogPractice/Vitis_SOC/blaze_FND_hw/export/blaze_FND_hw/blaze_FND_hw.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="blaze_FND_app_system" sysConfig="blaze_FND_hw" runtime="C/C++" cpu="standalone_domain" cpuInstance="microblaze_0" os="standalone" mssSignature="0e2d1cfdb522029937e32dcaf572019a">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.682416610" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1537963673" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>
